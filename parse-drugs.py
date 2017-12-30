@@ -119,6 +119,10 @@ def exportJSON(data, filename):
   with open(filename, 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
+def exportTXT(data, filename):
+  with open(filename, 'w') as outfile:
+    print >> outfile, '\n'.join(data)
+
 # =======================================================================================
 # MAIN
 # =======================================================================================
@@ -127,4 +131,7 @@ patients = read_drugs_csv('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
 patients = dict((int(row[0]), map(build, row[1:])) for row in patients)
 
+drugs = sorted(set([d.get('name') for p_id, p_drugs in patients.iteritems() for d in p_drugs]))
+
+exportTXT(drugs, 'drug_names.txt')
 exportJSON(patients, 'drugs.json')
