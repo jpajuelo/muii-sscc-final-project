@@ -3,9 +3,6 @@ import csv
 import json
 import re
 
-patients = []
-drugs = []
-
 num_re = r'[0-9]+(\.[0-9]+)?'
 unit_re = r'(--|%|mcg|mg|g|ui|ng|ml)'
 
