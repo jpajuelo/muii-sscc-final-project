@@ -6,6 +6,12 @@ Para crear el fichero **drugs.json**, ejecuta el siguiente comando:
 $ python parse-drugs.py
 ```
 
+Para crear el fichero **kidney-fail.json**, ejecuta el siguiente comando:
+
+```sh
+$ python parse-kidney-fail.py
+```
+
 ## 1. Medicamentos
 
 El formato de cada medicamento, que ha tomado cierto paciente, es el siguiente:
