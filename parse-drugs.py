@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
+
+# =======================================================================================
+# DEPENDENCIES
+# =======================================================================================
+
 import csv
 import json
 import re
+
+# =======================================================================================
+# REGULAR EXPRESSIONS
+# =======================================================================================
 
 num_re = r'[0-9]+(\.[0-9]+)?'
 unit_re = r'(--|%|mcg|mg|g|ui|ng|ml)'
@@ -11,6 +20,10 @@ drug_unit_re = r'(?P<unit>%s%s(/(%s)?%s)?)(,(?P<unit_extra>%s%s(/(%s)?%s)?))?' %
 drug_dose_re = r'(?P<dose>%su/(%s)?[a-z])' % ((num_re,) * 2)
 
 drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, drug_dose_re))
+
+# =======================================================================================
+# METHODS
+# =======================================================================================
 
 def read_drugs_csv(filename):
   patients = []
@@ -105,6 +118,10 @@ def build(drug):
 def exportJSON(data, filename):
   with open(filename, 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
+
+# =======================================================================================
+# MAIN
+# =======================================================================================
 
 patients = read_drugs_csv('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
