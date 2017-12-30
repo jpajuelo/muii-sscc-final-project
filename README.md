@@ -16,28 +16,26 @@ Cada segmento contiene:
   - **unit**: Tipo *Array*. Opcional. Cantidades con su unidad de medida.
   - **dose**: Tipo *String*. Opcional. Las dosis que el paciente tomo durante o cada cierto tiempo.
 
-Un ejemplo basico:
-
-> tranxilium 5-- 1u/d
+Un ejemplo basico: **tranxilium 5-- 1u/d**
 
 ### 1.1 Cantidad del medicamento
 
 Cada cantidad esta acompañada de su unidad de medida (en caso de no conocerlo, esta acompañada de la expresión **--**):
 
-> 500mg
-> 500%
-> 500--
+* 500mg
+* 500%
+* 500--
 
 También pueden darse fracciones:
 
-> 500--/10--
-> 500--/mcg
+* 500--/10--
+* 500--/mcg
 
 ### 1.2 Dosis del paciente
 
 Un ejemplo es el siguiente:
 
-> 1u/2d
-> 1u/s
+* 1u/2d
+* 1u/s
 
 Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 dias o cada semana.
