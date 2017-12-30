@@ -47,7 +47,12 @@ def format_float(val):
   return float("%.2f" % (float(val),))
 
 def clean(key, val):
-  return (key, None if val == '' else format_float(val))
+  val = None if val == '' else format_float(val)
+
+  if key == 'kidney failure':
+    val = False if val < 1 else True
+
+  return (key, val)
 
 # =======================================================================================
 # MAIN
