@@ -105,9 +105,12 @@ def build(drug):
 
   return dict(name=name, unit=unit, dose=dose)
 
+def exportJSON(data, filename):
+  with open(filename, 'w') as outfile:
+    json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
+
 patients = read_drugs_csv('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
 patients = dict((int(row[0]), map(build, row[1:])) for row in patients)
 
-with open('drugs.json', 'w') as outfile:
-  json.dump(patients, outfile, indent=2, separators=(',', ': '), sort_keys=True)
+exportJSON(patients, 'drugs.json')
