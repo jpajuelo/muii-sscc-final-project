@@ -25,11 +25,13 @@ drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, dru
 # METHODS
 # =======================================================================================
 
-def read_drugs_csv(filename):
-  patients = []
-  with open(filename, 'rb') as csvfile:
-    patients = [row for i, row in enumerate(csv.reader(csvfile)) if i != 0]
-  return patients
+def read_csvfile(name):
+  csvfile = open(name)
+  reader = csv.reader(csvfile)
+  reader.next()
+  matrix = [r for r in reader]
+  csvfile.close()
+  return matrix
 
 def replace(val, old, new, params=[], out=False):
 
@@ -123,7 +125,7 @@ def exportJSON(data, filename):
 # MAIN
 # =======================================================================================
 
-patients = read_drugs_csv('drugs.csv')
+patients = read_csvfile('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
 patients = dict((int(row[0]), map(build, row[1:])) for row in patients)
 
