@@ -51,6 +51,9 @@ def clean(key, val):
 
 def parse(key, val):
 
+  if key == 'height':
+    val = format_float(val / 0.39370)
+
   if key == 'kidney failure':
     val = False if val < 1 else True
 

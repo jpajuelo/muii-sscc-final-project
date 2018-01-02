@@ -50,7 +50,7 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 ## 2. Formatos del dataset kidney-fail
 
 * **patient_id**: The ID of the patient.
-* **height**: Patient height (in inches).
+* **height**: Altura. Unidad: cm.
 * **weight**: Peso. Unidad: kg.
 * **bun**: Nitrógeno ureico en sangre. Unidad: mg/dl.
 * **monocytes**: Monocytes level.
