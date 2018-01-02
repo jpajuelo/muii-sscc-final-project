@@ -49,10 +49,10 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 
 ## 2. Formatos del dataset kidney-fail
 
-* **patient_id**: The ID of the patient.
-* **height**: Altura. Unidad: cm.
-* **weight**: Peso. Unidad: kg.
-* **bun**: Nitrógeno ureico en sangre. Unidad: mg/dl.
+* **bun**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
+* **height**: Tipo: float. Unidad: cm. Altura.
+* **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
+* **weight**: Tipo: float. Unidad: kg. Peso.
 * **monocytes**: Monocytes level.
 * **granulocytes**: Granulocytes level.
 * **eosinophils**: Number of eosinophils.
@@ -63,4 +63,3 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * **mean_platelet_volume**: Mean value of platelet volume.
 * **leukocytes**: Leukocytes value.
 * **glucose**: Glucose level.
-* **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
