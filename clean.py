@@ -9,7 +9,7 @@ import json
 import re
 
 # =======================================================================================
-# VARS
+# CONSTANTS
 # =======================================================================================
 
 num_re = r'[0-9]+(\.[0-9]+)?'
@@ -39,11 +39,15 @@ patient_info = [
 ]
 
 # =======================================================================================
-# METHODS
+# HELPERS
 # =======================================================================================
 
-def read_csvfile(name):
-  csvfile = open(name)
+def export_json(data, filename):
+  with open(filename, 'w') as outfile:
+    json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
+
+def read_csvfile(filename):
+  csvfile = open(filename)
   reader = csv.reader(csvfile)
   reader.next()
   matrix = [r for r in reader]
@@ -66,6 +70,10 @@ def replace(val, old, new, params=[], out=False):
 
 def parse_float(val):
   return float("%.2f" % (float(val),))
+
+# =======================================================================================
+# METHODS
+# =======================================================================================
 
 def clean_drug(drug):
   drug = ' '.join(filter(lambda s: len(s) > 0, drug.split(' ')))
@@ -178,10 +186,6 @@ def build_kidney_fail(values):
     print [patient[k] for k in ['triglycerides', 'cbc']]
 
   return patient
-
-def export_json(data, filename):
-  with open(filename, 'w') as outfile:
-    json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
 # =======================================================================================
 # MAIN
