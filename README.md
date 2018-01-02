@@ -49,6 +49,7 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 
 ## 2. Formatos del dataset kidney-fail
 
+* **bmi**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
 * **bun**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
 * **height**: Tipo: float. Unidad: cm. Altura.
 * **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.

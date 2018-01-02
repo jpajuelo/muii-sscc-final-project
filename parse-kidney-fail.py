@@ -43,30 +43,39 @@ def exportJSON(data, filename):
   with open(filename, 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
-def format_float(val):
+def parse_float(val):
   return float("%.2f" % (float(val),))
 
 def clean(key, val):
-  return (key, None if val == '' else parse(key, format_float(val)))
+  return (key, None if val == '' else parse(key, parse_float(val)))
 
 def parse(key, val):
 
   if key == 'height':
-    val = format_float(val / 0.39370)
+    val = parse_float(val / 0.39370)
 
   if key == 'kidney_failure':
     val = False if val < 1 else True
 
   if key == 'weight':
-    val = format_float(val / 2.2046)
+    val = parse_float(val / 2.2046)
 
   return val
+
+def build(values):
+  patient = dict(clean(x, y) for x, y in zip(patient_info, values))
+
+  patient.update({
+    'bmi': parse_float(patient.get('weight') / (patient.get('height') * 0.01) ** 2)
+  })
+
+  return patient
 
 # =======================================================================================
 # MAIN
 # =======================================================================================
 
 patients = read_csv('kidney-fail.csv')
-patients = dict((int(row[0]), dict(clean(x, y) for x, y in zip(patient_info, row[1:]))) for row in patients)
+patients = dict((int(row[0]), build(row[1:])) for row in patients)
 
 exportJSON(patients, 'kidney-fail.json')
