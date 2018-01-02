@@ -52,24 +52,26 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * **blood_sugar_level**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
 * **bmi**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
 * **bun**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
-* **height**: Tipo: float. Unidad: cm. Altura.
+* **cbc**:
+    * **mpv**: Tipo: float. Unidad: fL. Volumen plaquetario medio.
+    * **plt**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
+    * **wbc**: Tipo: float. Unidad: 10^9/L. Conteo de glóbulos blancos o leucocitos.
+    * **wbc_report**:
+        * **basophil**: Tipo: float. Unidad: %. Basófilos.
+        * **eosinophil**: Tipo: float. Unidad: %. Eosinófilos.
+        * **monocyte**: Tipo: float. Unidad: %. Monocitos.
+        * **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
 * **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
-* **weight**: Tipo: float. Unidad: kg. Peso.
-* **basophils**: Tipo: float. Unidad: %. Basófilos.
-* **eosinophils**: Tipo: float. Unidad: %. Eosinófilos.
-* **granulocytes**: Tipo: float. Unidad: %. Granulocitos.
-* **monocytes**: Tipo: float. Unidad: %. Monocitos.
-* **platelet_count**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
 * **trgld**: ??? Unknown variable. No information provided by the hospital.
 * **tflr**: ??? Unknown variable. No information provided by the hospital.
-* **mean_platelet_volume**: Mean value of platelet volume.
-* **leukocytes**: Leukocytes value.
 
 ## 3. Referencias
 
 * [BMI table](http://www.calculator.net/bmi-calculator.html)
 * [Blood sugar chart](https://www.diabetesselfmanagement.com/managing-diabetes/blood-glucose-management/blood-sugar-chart/)
+* [BUN test](https://www.healthline.com/health/bun)
 * [Valores normales de azucar en sangre](https://www.news-medical.net/health/Blood-Sugar-Normal-Values-(Spanish).aspx)
+* [Blood sugar test](https://medlineplus.gov/ency/article/003482.htm)
 * [Leucocitos](https://tuchequeo.com/leucocitos-altos-en-sangre-leucositosis-causas/)
 * [WBC count](https://www.healthline.com/health/wbc-count)
 * [WBC count and differential](https://www.rnceus.com/cbc/cbcwbc.html)
@@ -77,3 +79,6 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * [Platelet count](https://medlineplus.gov/ency/article/003647.htm)
 * [Kidney failure](https://www.healthline.com/health/kidney-failure#diagnosis)
 * [Grunulocytosis](https://www.healthline.com/health/granulocytosis)
+* [Understading your blood results](https://www.cllsupport.org.uk/cll-sll/start-here/understanding-your-blood-results)
+* [Analisis de sangre](http://valencia.nueva-acropolis.es/valencia-articulos/207-pagina-de-salud/24662-claves-para-descifrar-un-analisis-de-sangre)
+* [Volumen plaquetario medio](https://cienciatoday.com/volumen-plaquetario-medio/)
