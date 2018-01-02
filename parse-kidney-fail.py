@@ -15,7 +15,7 @@ import re
 patient_info = [
   'height',
   'weight',
-  'urea',
+  'bun',
   'monocytes',
   'granulocytes',
   'eosinophils',
