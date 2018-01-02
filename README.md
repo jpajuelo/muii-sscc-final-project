@@ -51,7 +51,7 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 
 * **patient_id**: The ID of the patient.
 * **height**: Patient height (in inches).
-* **weight**: Patient weight (in pounds).
+* **weight**: Peso. Unidad: kg.
 * **bun**: Nitrógeno ureico en sangre. Unidad: mg/dl.
 * **monocytes**: Monocytes level.
 * **granulocytes**: Granulocytes level.

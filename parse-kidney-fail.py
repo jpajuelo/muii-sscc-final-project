@@ -47,12 +47,17 @@ def format_float(val):
   return float("%.2f" % (float(val),))
 
 def clean(key, val):
-  val = None if val == '' else format_float(val)
+  return (key, None if val == '' else parse(key, format_float(val)))
+
+def parse(key, val):
 
   if key == 'kidney failure':
     val = False if val < 1 else True
 
-  return (key, val)
+  if key == 'weight':
+    val = format_float(val / 2.2046)
+
+  return val
 
 # =======================================================================================
 # MAIN
