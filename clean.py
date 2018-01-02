@@ -21,7 +21,7 @@ drug_dose_re = r'(?P<dose>%su/(%s)?[a-z])' % ((num_re,) * 2)
 
 drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, drug_dose_re))
 
-patient_info = [
+patient_k = [
   'height',
   'weight',
   'bun',
@@ -133,10 +133,6 @@ def clean_drug(drug):
   drug = replace(drug, r'(?P<a>[0-9]+)(--)? y (?P<b>[0-9]+)(--)?', '%s--,%s--', ['a', 'b'])
   drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
 
-  return drug
-
-def build_drug(drug):
-  drug = clean_drug(drug)
   match = drug_pattern.search(drug)
 
   name = match.group('name')
@@ -145,24 +141,14 @@ def build_drug(drug):
 
   return dict(name=name, unit=unit, dose=dose)
 
-def clean_kidney_fail(key, val):
-  return (key, None if val == '' else parse_kidney_fail(key, parse_float(val)))
+def clean_patient(patient_v):
+  patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
 
-def parse_kidney_fail(key, val):
-
-  if key == 'height':
-    val = parse_float(val / 0.39370)
-
-  if key == 'kidney_failure':
-    val = False if val < 1 else True
-
-  if key == 'weight':
-    val = parse_float(val / 2.2046)
-
-  return val
-
-def build_kidney_fail(values):
-  patient = dict(clean_kidney_fail(x, y) for x, y in zip(patient_info, values))
+  patient.update({
+    'height': parse_float(patient.get('height') / 0.39370),
+    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
+    'weight': parse_float(patient.get('weight') / 2.2046)
+  })
 
   cbc_k = ['plt', 'mpv', 'wbc']
   cbc_v = [patient.pop(k) for k in cbc_k]
@@ -193,11 +179,11 @@ def build_kidney_fail(values):
 
 patients = read_csvfile('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
-patients = dict((int(row[0]), map(build_drug, row[1:])) for row in patients)
+patients = dict((int(row[0]), map(clean_drug, row[1:])) for row in patients)
 
 export_json(patients, 'drugs.json')
 
 patients = read_csvfile('kidney-fail.csv')
-patients = dict((int(row[0]), build_kidney_fail(row[1:])) for row in patients)
+patients = dict((int(row[0]), clean_patient(row[1:])) for row in patients)
 
 export_json(patients, 'kidney-fail.json')
