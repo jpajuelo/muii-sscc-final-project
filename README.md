@@ -63,4 +63,4 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * **mean_platelet_volume**: Mean value of platelet volume.
 * **leukocytes**: Leukocytes value.
 * **glucose**: Glucose level.
-* **kidney failure**: Boolean value. Identifies if the patient finally suffered a kidney failure.
+* **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
