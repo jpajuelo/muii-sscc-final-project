@@ -64,3 +64,8 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * **tflr**: ??? Unknown variable. No information provided by the hospital.
 * **mean_platelet_volume**: Mean value of platelet volume.
 * **leukocytes**: Leukocytes value.
+
+## 3. Referencias
+
+* [Blood sugar chart](https://www.diabetesselfmanagement.com/managing-diabetes/blood-glucose-management/blood-sugar-chart/)
+* [Valores normales de azucar en sangre](https://www.news-medical.net/health/Blood-Sugar-Normal-Values-(Spanish).aspx)
