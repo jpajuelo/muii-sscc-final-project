@@ -24,16 +24,16 @@ drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, dru
 patient_k = [
   'height',
   'weight',
-  'bun',
+  'blood_urea_nitrogen',
   'monocyte',
-  'neutrophil', # also called 'granulocytes'
+  'neutrophil',
   'eosinophil',
   'basophil',
-  'blood_sugar_level',
-  'plt',
-  'mpv',
-  'wbc',
-  'triglycerides',
+  'blood_sugar',
+  'platelet',
+  'mean_platelet_volume',
+  'white_blood_cell',
+  'triglyceride',
   'tflr',
   'kidney_failure'
 ]
@@ -150,26 +150,9 @@ def clean_patient(patient_v):
     'weight': parse_float(patient.get('weight') / 2.2046)
   })
 
-  cbc_k = ['plt', 'mpv', 'wbc']
-  cbc_v = [patient.pop(k) for k in cbc_k]
-
-  wbc_k = ['basophil', 'eosinophil', 'monocyte', 'neutrophil']
-  wbc_v = [patient.pop(k) for k in wbc_k]
-
-  cbc = None if None in cbc_v else dict(zip(cbc_k, cbc_v))
-
-  if cbc is not None:
-    cbc.update({
-      'wbc_report':  None if None in wbc_v else dict(zip(wbc_k, wbc_v))
-    })
-
   patient.update({
-    'bmi': parse_float(patient.pop('weight') / (patient.pop('height') * 0.01) ** 2),
-    'cbc': cbc
+    'blood_mass_index': parse_float(patient.get('weight') / (patient.get('height') * 0.01) ** 2)
   })
-
-  if None in [patient[k] for k in ['triglycerides', 'cbc']]:
-    print [patient[k] for k in ['triglycerides', 'cbc']]
 
   return patient
 

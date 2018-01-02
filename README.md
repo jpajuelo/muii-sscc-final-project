@@ -47,23 +47,23 @@ Un ejemplo es el siguiente:
 
 Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 dias o cada semana.
 
-## 2. Formatos del dataset kidney-fail
+## 2. Información del paciente
 
-* **blood_sugar_level**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
-* **bmi**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
-* **bun**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
-* **cbc**:
-    * **mpv**: Tipo: float. Unidad: fL. Volumen plaquetario medio.
-    * **plt**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
-    * **wbc**: Tipo: float. Unidad: 10^9/L. Conteo de glóbulos blancos o leucocitos.
-    * **wbc_report**:
-        * **basophil**: Tipo: float. Unidad: %. Basófilos.
-        * **eosinophil**: Tipo: float. Unidad: %. Eosinófilos.
-        * **monocyte**: Tipo: float. Unidad: %. Monocitos.
-        * **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
+* **basophil**: Tipo: float. Unidad: %. Basófilos.
+* **blood_mass_index**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
+* **blood_sugar**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
+* **blood_urea_nitrogen**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
+* **eosinophil**: Tipo: float. Unidad: %. Eosinófilos.
+* **height**: Tipo: float. Unidad: cm. Altura.
 * **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
-* **triglycerides**: Tipo: float. Unidad: mg/dl. Triglicéridos.
+* **mean_platelet_volume**: Tipo: float. Unidad: fL. Volumen plaquetario medio.
+* **monocyte**: Tipo: float. Unidad: %. Monocitos.
+* **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
+* **platelet**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
 * **tflr**: ??? Unknown variable. No information provided by the hospital.
+* **triglyceride**: Tipo: float. Unidad: mg/dl. Triglicéridos.
+* **weight**: Tipo: float. Unidad: kg. Peso.
+* **white_blood_cell**: Tipo: float. Unidad: 10^9/L. Conteo de glóbulos blancos o leucocitos.
 
 ## 3. Referencias
 
