@@ -21,8 +21,8 @@ patient_info = [
   'eosinophil',
   'basophil',
   'blood_sugar_level',
-  'platelet_count',
-  'mean_platelet_volume',
+  'plt',
+  'mpv',
   'wbc',
   'trgld',
   'tflr',
@@ -65,12 +65,22 @@ def parse(key, val):
 def build(values):
   patient = dict(clean(x, y) for x, y in zip(patient_info, values))
 
+  cbc_k = ['plt', 'mpv', 'wbc']
+  cbc_v = [patient.pop(k) for k in cbc_k]
+
   wbc_k = ['basophil', 'eosinophil', 'monocyte', 'neutrophil']
   wbc_v = [patient.pop(k) for k in wbc_k]
 
+  cbc = None if None in cbc_v else dict(zip(cbc_k, cbc_v))
+
+  if cbc is not None:
+    cbc.update({
+      'wbc_report':  None if None in wbc_v else dict(zip(wbc_k, wbc_v))
+    })
+
   patient.update({
     'bmi': parse_float(patient.pop('weight') / (patient.pop('height') * 0.01) ** 2),
-    'wbc_report': None if None in wbc_v else dict(zip(wbc_k, wbc_v))
+    'cbc': cbc
   })
 
   return patient
