@@ -16,14 +16,14 @@ patient_info = [
   'height',
   'weight',
   'bun',
-  'monocytes',
-  'granulocytes',
-  'eosinophils',
-  'basophils',
+  'monocyte',
+  'neutrophil', # also called 'granulocytes'
+  'eosinophil',
+  'basophil',
   'blood_sugar_level',
   'platelet_count',
   'mean_platelet_volume',
-  'leukocytes',
+  'wbc',
   'trgld',
   'tflr',
   'kidney_failure'
@@ -65,12 +65,12 @@ def parse(key, val):
 def build(values):
   patient = dict(clean(x, y) for x, y in zip(patient_info, values))
 
-  wbc_k = ['basophils', 'eosinophils', 'monocytes']
+  wbc_k = ['basophil', 'eosinophil', 'monocyte', 'neutrophil']
   wbc_v = [patient.pop(k) for k in wbc_k]
 
   patient.update({
     'bmi': parse_float(patient.pop('weight') / (patient.pop('height') * 0.01) ** 2),
-    'wbc_count': None if None in wbc_v else dict(zip(wbc_k, wbc_v))
+    'wbc_report': None if None in wbc_v else dict(zip(wbc_k, wbc_v))
   })
 
   return patient
