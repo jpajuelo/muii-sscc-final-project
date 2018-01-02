@@ -49,18 +49,18 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 
 ## 2. Formatos del dataset kidney-fail
 
+* **blood_sugar_level**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
 * **bmi**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
 * **bun**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
 * **height**: Tipo: float. Unidad: cm. Altura.
 * **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
 * **weight**: Tipo: float. Unidad: kg. Peso.
-* **monocytes**: Monocytes level.
-* **granulocytes**: Granulocytes level.
-* **eosinophils**: Number of eosinophils.
-* **basophils**: Idem with basophils.
-* **platelets**: Plateletes levels.
+* **basophils**: Tipo: float. Unidad: %. Basófilos.
+* **eosinophils**: Tipo: float. Unidad: %. Eosinófilos.
+* **granulocytes**: Tipo: float. Unidad: %. Granulocitos.
+* **monocytes**: Tipo: float. Unidad: %. Monocitos.
+* **platelet_count**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
 * **trgld**: ??? Unknown variable. No information provided by the hospital.
 * **tflr**: ??? Unknown variable. No information provided by the hospital.
 * **mean_platelet_volume**: Mean value of platelet volume.
 * **leukocytes**: Leukocytes value.
-* **glucose**: Glucose level.
