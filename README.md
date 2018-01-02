@@ -67,5 +67,13 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 
 ## 3. Referencias
 
+* [BMI table](http://www.calculator.net/bmi-calculator.html)
 * [Blood sugar chart](https://www.diabetesselfmanagement.com/managing-diabetes/blood-glucose-management/blood-sugar-chart/)
 * [Valores normales de azucar en sangre](https://www.news-medical.net/health/Blood-Sugar-Normal-Values-(Spanish).aspx)
+* [Leucocitos](https://tuchequeo.com/leucocitos-altos-en-sangre-leucositosis-causas/)
+* [WBC count](https://www.healthline.com/health/wbc-count)
+* [WBC count and differential](https://www.rnceus.com/cbc/cbcwbc.html)
+* [Differential blood count](https://emedicine.medscape.com/article/2085133-overview)
+* [Platelet count](https://medlineplus.gov/ency/article/003647.htm)
+* [Kidney failure](https://www.healthline.com/health/kidney-failure#diagnosis)
+* [Grunulocytosis](https://www.healthline.com/health/granulocytosis)
