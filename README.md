@@ -62,7 +62,7 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
         * **monocyte**: Tipo: float. Unidad: %. Monocitos.
         * **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
 * **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
-* **trgld**: ??? Unknown variable. No information provided by the hospital.
+* **triglycerides**: Tipo: float. Unidad: mg/dl. Triglicéridos.
 * **tflr**: ??? Unknown variable. No information provided by the hospital.
 
 ## 3. Referencias
@@ -82,3 +82,5 @@ Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 d
 * [Understading your blood results](https://www.cllsupport.org.uk/cll-sll/start-here/understanding-your-blood-results)
 * [Analisis de sangre](http://valencia.nueva-acropolis.es/valencia-articulos/207-pagina-de-salud/24662-claves-para-descifrar-un-analisis-de-sangre)
 * [Volumen plaquetario medio](https://cienciatoday.com/volumen-plaquetario-medio/)
+* [Triglirecidos](https://medlineplus.gov/spanish/triglycerides.html)
+* [High triglycerides](https://www.webmd.com/cholesterol-management/tc/high-triglycerides-overview)

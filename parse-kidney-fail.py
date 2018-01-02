@@ -24,7 +24,7 @@ patient_info = [
   'plt',
   'mpv',
   'wbc',
-  'trgld',
+  'triglycerides',
   'tflr',
   'kidney_failure'
 ]
