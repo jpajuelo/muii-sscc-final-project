@@ -1,0 +1,5744 @@
+{
+  "1": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "foradil aerolizer",
+    "unit": null
+  },
+  "2": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "3": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "digoxina",
+    "unit": "0.25--"
+  },
+  "4": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": "20--"
+  },
+  "5": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "digoxina",
+    "unit": null
+  },
+  "6": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic",
+    "unit": "0.4--"
+  },
+  "7": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "8": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "disgren",
+    "unit": null
+  },
+  "9": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "provigil",
+    "unit": null
+  },
+  "10": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "bioplak",
+    "unit": "125--"
+  },
+  "11": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "12": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone mabo",
+    "unit": "40--"
+  },
+  "13": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ezetrol",
+    "unit": "20--"
+  },
+  "14": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "15": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "16": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "17": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "atenolol",
+    "unit": null
+  },
+  "18": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "provigilbayer",
+    "unit": null
+  },
+  "19": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "serc",
+    "unit": "8--"
+  },
+  "20": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "manidon",
+    "unit": null
+  },
+  "21": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "seroxat",
+    "unit": null
+  },
+  "22": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "23": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paroxetina",
+    "unit": "40--"
+  },
+  "24": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "25": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pronitol",
+    "unit": null
+  },
+  "26": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "27": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "urolosin",
+    "unit": null
+  },
+  "28": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": "20--"
+  },
+  "29": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co renitec",
+    "unit": null
+  },
+  "30": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "31": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "antiacid",
+    "unit": null
+  },
+  "32": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "lentoquine",
+    "unit": null
+  },
+  "33": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "bipreterax",
+    "unit": "4--/1.2--"
+  },
+  "34": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": null
+  },
+  "35": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "36": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "37": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "38": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "euritox",
+    "unit": null
+  },
+  "39": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "40": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": "5--"
+  },
+  "41": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tezazepam",
+    "unit": null
+  },
+  "42": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "43": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": null
+  },
+  "44": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "orfidal",
+    "unit": null
+  },
+  "45": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ibuprohen",
+    "unit": "600--"
+  },
+  "46": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "47": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "detrusitol neo",
+    "unit": "4--"
+  },
+  "48": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pantok",
+    "unit": null
+  },
+  "49": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "regulaten plus",
+    "unit": null
+  },
+  "50": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cozaar plus",
+    "unit": null
+  },
+  "51": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic ocas",
+    "unit": null
+  },
+  "52": {
+    "dose_time": "1d",
+    "dose_unit": 0.5,
+    "name": "ameride",
+    "unit": null
+  },
+  "53": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "54": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "hipoartel plus",
+    "unit": null
+  },
+  "55": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "56": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "57": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "natecal d",
+    "unit": null
+  },
+  "58": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coaprovel",
+    "unit": "300--/12.5--"
+  },
+  "59": {
+    "dose_time": "8d",
+    "dose_unit": 1.0,
+    "name": "transtec",
+    "unit": "70--"
+  },
+  "60": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karvezide",
+    "unit": null
+  },
+  "61": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "62": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "63": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "64": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pariet",
+    "unit": null
+  },
+  "65": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "66": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "zarator",
+    "unit": "20--"
+  },
+  "67": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glucobay",
+    "unit": null
+  },
+  "68": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "micardis",
+    "unit": "80--"
+  },
+  "69": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": "5--"
+  },
+  "70": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": null
+  },
+  "71": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cefluroxina",
+    "unit": null
+  },
+  "72": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enantyum",
+    "unit": "25--"
+  },
+  "73": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "deanxit",
+    "unit": null
+  },
+  "74": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "orfidal",
+    "unit": null
+  },
+  "75": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "vals",
+    "unit": null
+  },
+  "76": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hidrosaluretil",
+    "unit": null
+  },
+  "77": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "avidart",
+    "unit": null
+  },
+  "78": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "metotrexa",
+    "unit": "850--"
+  },
+  "79": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "80": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "81": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "foli doce",
+    "unit": null
+  },
+  "82": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "motens",
+    "unit": "4--"
+  },
+  "83": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sutril",
+    "unit": "5--"
+  },
+  "84": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "85": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lexatin",
+    "unit": "1.5--"
+  },
+  "86": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "meloxican",
+    "unit": null
+  },
+  "87": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "88": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anasma",
+    "unit": null
+  },
+  "89": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "90": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "noctamid",
+    "unit": "1--"
+  },
+  "91": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coderol",
+    "unit": "1500--"
+  },
+  "92": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "apocard",
+    "unit": "100--"
+  },
+  "93": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "xumadol",
+    "unit": "1g"
+  },
+  "94": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lisinoprils",
+    "unit": null
+  },
+  "95": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cibacen",
+    "unit": null
+  },
+  "96": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "nexium",
+    "unit": "40--"
+  },
+  "97": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "renitec",
+    "unit": "5--"
+  },
+  "98": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trimetazidina",
+    "unit": "20--"
+  },
+  "99": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "100": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "euliptol retard",
+    "unit": "400mg"
+  },
+  "101": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "neblik",
+    "unit": "12ng"
+  },
+  "102": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "103": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "estomil",
+    "unit": "30--"
+  },
+  "104": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "pitur",
+    "unit": "80--"
+  },
+  "105": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "106": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "symbicort",
+    "unit": null
+  },
+  "107": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "108": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "carduran neo",
+    "unit": null
+  },
+  "109": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "unibenestan",
+    "unit": "10--"
+  },
+  "110": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "111": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "112": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "covals",
+    "unit": null
+  },
+  "113": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "iscover",
+    "unit": null
+  },
+  "114": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ebastel forte",
+    "unit": null
+  },
+  "115": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hemovas",
+    "unit": null
+  },
+  "116": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "117": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "levotiroxina de sodio",
+    "unit": null
+  },
+  "118": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonorm",
+    "unit": "1--"
+  },
+  "119": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ostruman",
+    "unit": null
+  },
+  "120": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "nimodipino",
+    "unit": null
+  },
+  "121": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "122": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "actomel",
+    "unit": "35--"
+  },
+  "123": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "droal",
+    "unit": "10--"
+  },
+  "124": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adaptone",
+    "unit": null
+  },
+  "125": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "normolen",
+    "unit": null
+  },
+  "126": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lecyclosporine",
+    "unit": null
+  },
+  "127": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "128": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "prandin",
+    "unit": "2--"
+  },
+  "129": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metotrexa sandoz",
+    "unit": "850--"
+  },
+  "130": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anagastra",
+    "unit": null
+  },
+  "131": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dobupal",
+    "unit": null
+  },
+  "132": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co diovan",
+    "unit": "80--"
+  },
+  "133": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "134": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "135": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "arterid",
+    "unit": null
+  },
+  "136": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "provigilbayer",
+    "unit": null
+  },
+  "137": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "138": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "plavix",
+    "unit": "75--"
+  },
+  "139": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "taucor",
+    "unit": "20--"
+  },
+  "140": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "micardis",
+    "unit": "8--"
+  },
+  "141": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ulcotenal",
+    "unit": null
+  },
+  "142": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "143": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metotrexa",
+    "unit": null
+  },
+  "144": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "cardil",
+    "unit": "10--"
+  },
+  "145": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tegretal",
+    "unit": null
+  },
+  "146": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "actira",
+    "unit": null
+  },
+  "147": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anagastra",
+    "unit": "20--"
+  },
+  "148": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "albadamen",
+    "unit": null
+  },
+  "149": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "150": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "zocor",
+    "unit": "20--"
+  },
+  "151": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hipoartel plus",
+    "unit": null
+  },
+  "152": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": "10--"
+  },
+  "153": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "154": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "condrosulf",
+    "unit": null
+  },
+  "155": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "156": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "157": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tonocaltin",
+    "unit": null
+  },
+  "158": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "159": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "atarax",
+    "unit": null
+  },
+  "160": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": "5--"
+  },
+  "161": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "prednisone",
+    "unit": null
+  },
+  "162": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": null
+  },
+  "163": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trankimazin",
+    "unit": null
+  },
+  "164": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acrel",
+    "unit": null
+  },
+  "165": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "psicocen",
+    "unit": "50--"
+  },
+  "166": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril ratiopharm",
+    "unit": null
+  },
+  "167": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "seropram",
+    "unit": "30--"
+  },
+  "168": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sintron",
+    "unit": "4--"
+  },
+  "169": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": null
+  },
+  "170": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "dilutol",
+    "unit": "5--"
+  },
+  "171": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carduran neo",
+    "unit": "8--"
+  },
+  "172": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": null
+  },
+  "173": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pazital",
+    "unit": "37.5--/325mg"
+  },
+  "174": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "axiago",
+    "unit": "40--"
+  },
+  "175": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "176": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": null
+  },
+  "177": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "amlodipino",
+    "unit": null
+  },
+  "178": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "ansium",
+    "unit": null
+  },
+  "179": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "180": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coaprovel",
+    "unit": "150--/12.5--"
+  },
+  "181": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sulpirida",
+    "unit": null
+  },
+  "182": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lescol prolib",
+    "unit": "80--"
+  },
+  "183": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "serc",
+    "unit": null
+  },
+  "184": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "185": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "186": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lorazepam",
+    "unit": "1--"
+  },
+  "187": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "orfidal",
+    "unit": null
+  },
+  "188": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dinisor",
+    "unit": "120--"
+  },
+  "189": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ulcotenal",
+    "unit": "20--"
+  },
+  "190": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "191": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "indapamida",
+    "unit": "2.5--"
+  },
+  "192": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "193": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "10--"
+  },
+  "194": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "zocor forte",
+    "unit": null
+  },
+  "195": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "196": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif",
+    "unit": null
+  },
+  "197": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "bristacol",
+    "unit": "20--"
+  },
+  "198": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "secalip",
+    "unit": "200--"
+  },
+  "199": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "200": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "movalis",
+    "unit": null
+  },
+  "201": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cerbin",
+    "unit": null
+  },
+  "202": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "5--"
+  },
+  "203": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "handihaler",
+    "unit": null
+  },
+  "204": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "besitran",
+    "unit": "100--"
+  },
+  "205": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dacortin",
+    "unit": "30--"
+  },
+  "206": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "seractil",
+    "unit": "400--"
+  },
+  "207": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metamizol normon",
+    "unit": null
+  },
+  "208": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "estomil",
+    "unit": "30--"
+  },
+  "209": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "movalis",
+    "unit": "7.5--"
+  },
+  "210": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "211": {
+    "dose_time": "1d",
+    "dose_unit": 0.5,
+    "name": "atenolol",
+    "unit": null
+  },
+  "212": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "euritox",
+    "unit": null
+  },
+  "213": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "stilnox",
+    "unit": "10--"
+  },
+  "214": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "215": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "liplat",
+    "unit": null
+  },
+  "216": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "10--"
+  },
+  "217": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "218": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "10--"
+  },
+  "219": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarazor",
+    "unit": null
+  },
+  "220": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "221": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metamizol",
+    "unit": null
+  },
+  "222": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "223": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "droal",
+    "unit": "10--"
+  },
+  "224": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dilutol",
+    "unit": "10--"
+  },
+  "225": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": null
+  },
+  "226": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": null
+  },
+  "227": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "diuzine",
+    "unit": null
+  },
+  "228": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "229": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tevetens",
+    "unit": "600--"
+  },
+  "230": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "231": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic orcas",
+    "unit": "0.4--"
+  },
+  "232": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "233": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lopid",
+    "unit": "600--"
+  },
+  "234": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "235": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "236": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sinemet",
+    "unit": null
+  },
+  "237": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "avidart",
+    "unit": null
+  },
+  "238": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": null
+  },
+  "239": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "captopril",
+    "unit": null
+  },
+  "240": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": null
+  },
+  "241": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co diovan forte",
+    "unit": null
+  },
+  "242": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "243": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonorm",
+    "unit": "0.5--"
+  },
+  "244": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zigurit",
+    "unit": "300--"
+  },
+  "245": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "almax",
+    "unit": null
+  },
+  "246": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "amaryl",
+    "unit": "2--"
+  },
+  "247": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "248": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "urolosin",
+    "unit": null
+  },
+  "249": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": null
+  },
+  "250": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lexatin",
+    "unit": "1.5--"
+  },
+  "251": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "dnben",
+    "unit": null
+  },
+  "252": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen alter",
+    "unit": "20--"
+  },
+  "253": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "254": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pencil",
+    "unit": "50--"
+  },
+  "255": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carduran neo",
+    "unit": null
+  },
+  "256": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "veridasa",
+    "unit": null
+  },
+  "257": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": null
+  },
+  "258": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "micardis",
+    "unit": "80--"
+  },
+  "259": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "5--"
+  },
+  "260": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "corenitec",
+    "unit": null
+  },
+  "261": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "262": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "ibuprohen",
+    "unit": null
+  },
+  "263": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif",
+    "unit": "1.5--"
+  },
+  "264": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lova",
+    "unit": "20--"
+  },
+  "265": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif",
+    "unit": null
+  },
+  "266": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "water distiled",
+    "unit": "40--"
+  },
+  "267": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "268": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "provigilbayer",
+    "unit": null
+  },
+  "269": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "270": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "diovan",
+    "unit": null
+  },
+  "271": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "272": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "273": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zibacen",
+    "unit": null
+  },
+  "274": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plavix",
+    "unit": "75--"
+  },
+  "275": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "276": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pectox",
+    "unit": null
+  },
+  "277": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "meloxicam",
+    "unit": null
+  },
+  "278": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "airtal",
+    "unit": null
+  },
+  "279": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "torasemida",
+    "unit": null
+  },
+  "280": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "vals",
+    "unit": "160--"
+  },
+  "281": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensit retard",
+    "unit": null
+  },
+  "282": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "283": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "captopril",
+    "unit": null
+  },
+  "284": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "motens",
+    "unit": null
+  },
+  "285": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "286": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glumida",
+    "unit": "100--"
+  },
+  "287": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "levothroid",
+    "unit": null
+  },
+  "288": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trileptal",
+    "unit": "300--"
+  },
+  "289": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "dogmatil",
+    "unit": null
+  },
+  "290": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic",
+    "unit": "0.4--"
+  },
+  "291": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karvezide",
+    "unit": null
+  },
+  "292": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ceprandal",
+    "unit": null
+  },
+  "293": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": "20--"
+  },
+  "294": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "295": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "296": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plavix",
+    "unit": null
+  },
+  "297": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "daflon",
+    "unit": null
+  },
+  "298": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "aremis",
+    "unit": "50--"
+  },
+  "299": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fosamax",
+    "unit": null
+  },
+  "300": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "301": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tarka",
+    "unit": null
+  },
+  "302": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "permixon",
+    "unit": null
+  },
+  "303": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": "20--"
+  },
+  "304": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "305": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tanakene",
+    "unit": null
+  },
+  "306": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": "650--"
+  },
+  "307": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": null
+  },
+  "308": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "regulaten",
+    "unit": "600--"
+  },
+  "309": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "310": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "311": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ibuprohen",
+    "unit": null
+  },
+  "312": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "313": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "micardis",
+    "unit": null
+  },
+  "314": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pariet",
+    "unit": "20--"
+  },
+  "315": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "enalapril lasa",
+    "unit": null
+  },
+  "316": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lobivon",
+    "unit": null
+  },
+  "317": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anagastra",
+    "unit": "40--"
+  },
+  "318": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pantok",
+    "unit": "20--"
+  },
+  "319": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tradonal",
+    "unit": "50--"
+  },
+  "320": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "321": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "322": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anagastra",
+    "unit": null
+  },
+  "323": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acediur",
+    "unit": null
+  },
+  "324": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "325": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "alprazolan",
+    "unit": null
+  },
+  "326": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tromalyt",
+    "unit": null
+  },
+  "327": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonorm",
+    "unit": "0.5--"
+  },
+  "328": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "adyro",
+    "unit": "100--"
+  },
+  "329": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lisinopril",
+    "unit": null
+  },
+  "330": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paroxetina",
+    "unit": null
+  },
+  "331": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "332": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co vals",
+    "unit": null
+  },
+  "333": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "334": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "citalopram",
+    "unit": null
+  },
+  "335": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif",
+    "unit": null
+  },
+  "336": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": "18mcg"
+  },
+  "337": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "olmetec",
+    "unit": "20--"
+  },
+  "338": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "339": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": "20--"
+  },
+  "340": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "341": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lorazepam",
+    "unit": "1--"
+  },
+  "342": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "343": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glumida",
+    "unit": "50--"
+  },
+  "344": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zytram",
+    "unit": null
+  },
+  "345": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acalka",
+    "unit": null
+  },
+  "346": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "347": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "deprax",
+    "unit": "100--"
+  },
+  "348": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adalat retard",
+    "unit": null
+  },
+  "349": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "350": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "mevacor",
+    "unit": "20--"
+  },
+  "351": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "eutirox",
+    "unit": "75--"
+  },
+  "352": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "condrosan",
+    "unit": "100--"
+  },
+  "353": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "colchimax",
+    "unit": null
+  },
+  "354": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pritor",
+    "unit": "40--"
+  },
+  "355": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "10--"
+  },
+  "356": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "357": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "358": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "renytec",
+    "unit": null
+  },
+  "359": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plavix",
+    "unit": null
+  },
+  "360": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "zarator",
+    "unit": null
+  },
+  "361": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adalat oros",
+    "unit": null
+  },
+  "362": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tracore",
+    "unit": null
+  },
+  "363": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dilutol",
+    "unit": null
+  },
+  "364": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "simvastanina",
+    "unit": null
+  },
+  "365": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "simvastanina alter",
+    "unit": null
+  },
+  "366": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tramadol",
+    "unit": "50--"
+  },
+  "367": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetilcisteina",
+    "unit": "200mg"
+  },
+  "368": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "serevent",
+    "unit": null
+  },
+  "369": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lescol fluvastatin",
+    "unit": "40--"
+  },
+  "370": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "371": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trankimazin retard",
+    "unit": null
+  },
+  "372": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "373": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lisinopril",
+    "unit": null
+  },
+  "374": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sumial",
+    "unit": "40--"
+  },
+  "375": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "durogesic",
+    "unit": "25--"
+  },
+  "376": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "377": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norpolamim",
+    "unit": "20--"
+  },
+  "378": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "pamtecta",
+    "unit": null
+  },
+  "379": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "daflon",
+    "unit": null
+  },
+  "380": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "siccafluid",
+    "unit": null
+  },
+  "381": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif",
+    "unit": null
+  },
+  "382": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carduran",
+    "unit": null
+  },
+  "383": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": "500--"
+  },
+  "384": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": "18--"
+  },
+  "385": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "renitec",
+    "unit": null
+  },
+  "386": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prandin",
+    "unit": "1--"
+  },
+  "387": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "urolosin",
+    "unit": null
+  },
+  "388": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": null
+  },
+  "389": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "390": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "391": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sinemet",
+    "unit": null
+  },
+  "392": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "393": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ritmonorm",
+    "unit": "150--"
+  },
+  "394": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": null
+  },
+  "395": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "dilutol",
+    "unit": "10--"
+  },
+  "396": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "eutirox",
+    "unit": null
+  },
+  "397": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "atacand",
+    "unit": null
+  },
+  "398": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "algi mabo",
+    "unit": null
+  },
+  "399": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "anagastra",
+    "unit": null
+  },
+  "400": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "orfidal",
+    "unit": null
+  },
+  "401": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "uniket",
+    "unit": "20--"
+  },
+  "402": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "natecal",
+    "unit": null
+  },
+  "403": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "blaston",
+    "unit": null
+  },
+  "404": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "dnben",
+    "unit": "850--"
+  },
+  "405": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "406": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "407": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trankimazin",
+    "unit": "0.50--"
+  },
+  "408": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coropres",
+    "unit": null
+  },
+  "409": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hespercorbin",
+    "unit": null
+  },
+  "410": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "411": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tromalyt",
+    "unit": null
+  },
+  "412": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "serc",
+    "unit": "8--"
+  },
+  "413": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "singulair",
+    "unit": "10--"
+  },
+  "414": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carduran neo",
+    "unit": null
+  },
+  "415": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "capoten",
+    "unit": "50--"
+  },
+  "416": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fosamax",
+    "unit": null
+  },
+  "417": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zocor",
+    "unit": null
+  },
+  "418": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "419": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": null
+  },
+  "420": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": "650--"
+  },
+  "421": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ideos",
+    "unit": null
+  },
+  "422": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "levothroid",
+    "unit": null
+  },
+  "423": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "cyclosporine",
+    "unit": "40--"
+  },
+  "424": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "anagastra",
+    "unit": "40--"
+  },
+  "425": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "426": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hidrosaluretil",
+    "unit": null
+  },
+  "427": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "428": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "429": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "430": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "venolep",
+    "unit": "200--"
+  },
+  "431": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "tonopan",
+    "unit": null
+  },
+  "432": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "433": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": null
+  },
+  "434": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "435": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "citalopran",
+    "unit": "10--"
+  },
+  "436": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": "20--"
+  },
+  "437": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carreldon retard",
+    "unit": "120mg"
+  },
+  "438": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "loratadina",
+    "unit": null
+  },
+  "439": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ibuprohen",
+    "unit": "600--"
+  },
+  "440": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "insulatard",
+    "unit": null
+  },
+  "441": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "442": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "airtal",
+    "unit": null
+  },
+  "443": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dilotul",
+    "unit": "5--"
+  },
+  "444": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "445": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "446": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "venosmil",
+    "unit": "200--"
+  },
+  "447": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "448": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": null
+  },
+  "449": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": "800--"
+  },
+  "450": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "atriscal",
+    "unit": "400--"
+  },
+  "451": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": "1g"
+  },
+  "452": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": "20--"
+  },
+  "453": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": null
+  },
+  "454": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sintonal",
+    "unit": null
+  },
+  "455": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ceprandal",
+    "unit": null
+  },
+  "456": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karmezide",
+    "unit": null
+  },
+  "457": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "noctamid",
+    "unit": null
+  },
+  "458": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "risperdal",
+    "unit": null
+  },
+  "459": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "10--"
+  },
+  "460": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "motens",
+    "unit": "4--"
+  },
+  "461": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "hemovas",
+    "unit": "40--"
+  },
+  "462": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "deflox",
+    "unit": "5--"
+  },
+  "463": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "iecatec",
+    "unit": null
+  },
+  "464": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "diurex",
+    "unit": null
+  },
+  "465": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "micardis plus",
+    "unit": null
+  },
+  "466": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dmben",
+    "unit": null
+  },
+  "467": {
+    "dose_time": "1d",
+    "dose_unit": 0.5,
+    "name": "dilutol",
+    "unit": "5--"
+  },
+  "468": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "renitec",
+    "unit": "20--"
+  },
+  "469": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rasilez",
+    "unit": "300--"
+  },
+  "470": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "besitran",
+    "unit": null
+  },
+  "471": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "somazina vial",
+    "unit": "1000--"
+  },
+  "472": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": "10--"
+  },
+  "473": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prandin",
+    "unit": null
+  },
+  "474": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acido folico",
+    "unit": null
+  },
+  "475": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "seropram",
+    "unit": null
+  },
+  "476": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lipemol",
+    "unit": null
+  },
+  "477": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "detrositol neo",
+    "unit": "4--"
+  },
+  "478": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co vals",
+    "unit": null
+  },
+  "479": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "astudal",
+    "unit": null
+  },
+  "480": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "481": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "flumil forte",
+    "unit": "600--"
+  },
+  "482": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "hipoartel",
+    "unit": "20--"
+  },
+  "483": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "xumadol",
+    "unit": null
+  },
+  "484": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "485": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "thyle",
+    "unit": "1.5--"
+  },
+  "486": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "valss",
+    "unit": "160--"
+  },
+  "487": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ansium",
+    "unit": null
+  },
+  "488": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "adalat oros",
+    "unit": "30--"
+  },
+  "489": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "5--"
+  },
+  "490": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karvecide",
+    "unit": null
+  },
+  "491": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "idaptan",
+    "unit": null
+  },
+  "492": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "alopurinol",
+    "unit": null
+  },
+  "493": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ebastel",
+    "unit": "10--"
+  },
+  "494": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tranxilium",
+    "unit": null
+  },
+  "495": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acocil",
+    "unit": "10--"
+  },
+  "496": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "497": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "498": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dolquine",
+    "unit": null
+  },
+  "499": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "10--"
+  },
+  "500": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "501": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "502": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "condro san",
+    "unit": "400--"
+  },
+  "503": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "504": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "505": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "506": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": "5--"
+  },
+  "507": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "silastar",
+    "unit": null
+  },
+  "508": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": "18mcg"
+  },
+  "509": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "water distiled",
+    "unit": "40--"
+  },
+  "510": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "511": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "citalopram",
+    "unit": null
+  },
+  "512": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "513": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "nerdipina",
+    "unit": "20--"
+  },
+  "514": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "iscover",
+    "unit": null
+  },
+  "515": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tevetens",
+    "unit": "600--"
+  },
+  "516": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enoxaparina",
+    "unit": null
+  },
+  "517": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "neo carduran",
+    "unit": null
+  },
+  "518": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "519": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "520": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "521": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "duphalac",
+    "unit": null
+  },
+  "522": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "clanzoflat",
+    "unit": null
+  },
+  "523": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "singulair",
+    "unit": "10--"
+  },
+  "524": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "solian",
+    "unit": null
+  },
+  "525": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "526": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "tevetens",
+    "unit": "600--"
+  },
+  "527": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "terbutaline",
+    "unit": null
+  },
+  "528": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omegactive",
+    "unit": null
+  },
+  "529": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "evista",
+    "unit": "60--"
+  },
+  "530": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "capoten",
+    "unit": null
+  },
+  "531": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "digoxina",
+    "unit": null
+  },
+  "532": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": "18mcg"
+  },
+  "533": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coversyl",
+    "unit": null
+  },
+  "534": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "535": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "water distiled",
+    "unit": null
+  },
+  "536": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "artrinovo",
+    "unit": null
+  },
+  "537": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonor",
+    "unit": null
+  },
+  "538": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ibuprohen davir",
+    "unit": "600--"
+  },
+  "539": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "estomil",
+    "unit": "15--"
+  },
+  "540": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "10--"
+  },
+  "541": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "542": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": "20--"
+  },
+  "543": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dmicron",
+    "unit": null
+  },
+  "544": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "545": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen merck",
+    "unit": null
+  },
+  "546": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "symbicort turbuhaler",
+    "unit": null
+  },
+  "547": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "evista",
+    "unit": null
+  },
+  "548": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "549": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "ibuprohen",
+    "unit": null
+  },
+  "550": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co diovan",
+    "unit": null
+  },
+  "551": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "552": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "voltaren",
+    "unit": null
+  },
+  "553": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "taucor",
+    "unit": null
+  },
+  "554": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "555": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "digoxina",
+    "unit": null
+  },
+  "556": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "557": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "norvas",
+    "unit": "10--"
+  },
+  "558": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "559": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "coloplex",
+    "unit": null
+  },
+  "560": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "561": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spasmoctyl",
+    "unit": "40--"
+  },
+  "562": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "vaditon prolib",
+    "unit": "80--"
+  },
+  "563": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "hydrosalentil",
+    "unit": null
+  },
+  "564": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": null
+  },
+  "565": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zocor d",
+    "unit": "20--"
+  },
+  "566": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "ketesse",
+    "unit": "25--"
+  },
+  "567": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prava",
+    "unit": null
+  },
+  "568": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "569": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "570": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "571": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": null
+  },
+  "572": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trimetazidina",
+    "unit": "20--"
+  },
+  "573": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "574": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adalat oros",
+    "unit": "30--"
+  },
+  "575": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "opiren l",
+    "unit": "15--"
+  },
+  "576": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acovil",
+    "unit": null
+  },
+  "577": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "kalpress",
+    "unit": null
+  },
+  "578": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metamizol normon",
+    "unit": null
+  },
+  "579": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "hidrosaluretil",
+    "unit": null
+  },
+  "580": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hidroferol",
+    "unit": null
+  },
+  "581": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": "40--"
+  },
+  "582": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cozaar",
+    "unit": null
+  },
+  "583": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novinorm",
+    "unit": null
+  },
+  "584": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "coaprovel",
+    "unit": "300--"
+  },
+  "585": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "duphalac",
+    "unit": null
+  },
+  "586": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "587": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sinemet plus",
+    "unit": null
+  },
+  "588": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone mabo",
+    "unit": "20--"
+  },
+  "589": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril ratiopharm",
+    "unit": null
+  },
+  "590": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "bremon",
+    "unit": null
+  },
+  "591": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": null
+  },
+  "592": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "20--"
+  },
+  "593": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "surnox",
+    "unit": "200--"
+  },
+  "594": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril ratiopharm",
+    "unit": null
+  },
+  "595": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "optruma",
+    "unit": null
+  },
+  "596": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "voltaren",
+    "unit": null
+  },
+  "597": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "eritrogobens",
+    "unit": null
+  },
+  "598": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "599": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "idaptan",
+    "unit": null
+  },
+  "600": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ranitidina",
+    "unit": "300--"
+  },
+  "601": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "a a s",
+    "unit": null
+  },
+  "602": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "amoxicilina",
+    "unit": "500--"
+  },
+  "603": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "604": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pantok forte",
+    "unit": null
+  },
+  "605": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "606": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trandolapril",
+    "unit": null
+  },
+  "607": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tiadipona",
+    "unit": "25--"
+  },
+  "608": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "609": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "topamax",
+    "unit": null
+  },
+  "610": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif retard",
+    "unit": "1.5mg"
+  },
+  "611": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "612": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "dnven",
+    "unit": null
+  },
+  "613": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "natecalde",
+    "unit": null
+  },
+  "614": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "rytmonorm",
+    "unit": "300--"
+  },
+  "615": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tertensif retard",
+    "unit": "1.5--"
+  },
+  "616": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cipralex",
+    "unit": null
+  },
+  "617": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "618": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "optovite",
+    "unit": null
+  },
+  "619": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "620": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "621": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "622": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "futuran",
+    "unit": "600--"
+  },
+  "623": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dalparan",
+    "unit": null
+  },
+  "624": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "mucovital",
+    "unit": null
+  },
+  "625": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paroxetina",
+    "unit": null
+  },
+  "626": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "627": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "inidmicron",
+    "unit": "30--"
+  },
+  "628": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cosopot",
+    "unit": "5ml"
+  },
+  "629": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dbenese",
+    "unit": null
+  },
+  "630": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "clamoxil",
+    "unit": null
+  },
+  "631": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "632": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": null
+  },
+  "633": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "634": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "casodex",
+    "unit": "50--"
+  },
+  "635": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "idaptan",
+    "unit": null
+  },
+  "636": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "aspirine",
+    "unit": null
+  },
+  "637": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "638": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "capoten",
+    "unit": null
+  },
+  "639": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acido alendronico sem",
+    "unit": null
+  },
+  "640": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lumigan",
+    "unit": null
+  },
+  "641": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pitor plus",
+    "unit": null
+  },
+  "642": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co vals",
+    "unit": null
+  },
+  "643": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karnea",
+    "unit": null
+  },
+  "644": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "xazal",
+    "unit": null
+  },
+  "645": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trimetazidina",
+    "unit": "20--"
+  },
+  "646": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "647": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "quimioterapia",
+    "unit": null
+  },
+  "648": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "daonil",
+    "unit": null
+  },
+  "649": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cepranodal",
+    "unit": null
+  },
+  "650": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "651": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "amaryl",
+    "unit": null
+  },
+  "652": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "taucor",
+    "unit": null
+  },
+  "653": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ranuber",
+    "unit": null
+  },
+  "654": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "655": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "losartan",
+    "unit": "50--"
+  },
+  "656": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "657": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "thyle",
+    "unit": "1.5--"
+  },
+  "658": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "adolonta",
+    "unit": null
+  },
+  "659": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "aldactone",
+    "unit": null
+  },
+  "660": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novo norm",
+    "unit": null
+  },
+  "661": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "662": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "digoxina",
+    "unit": "0.25--"
+  },
+  "663": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "664": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "renitec",
+    "unit": null
+  },
+  "665": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "furosemida mayer",
+    "unit": "40--"
+  },
+  "666": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "667": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metmorfina",
+    "unit": "850--"
+  },
+  "668": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "669": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prisdal",
+    "unit": "20--"
+  },
+  "670": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "captopren",
+    "unit": null
+  },
+  "671": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "672": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "igrotona",
+    "unit": null
+  },
+  "673": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "674": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "675": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cardivitol",
+    "unit": null
+  },
+  "676": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dinisor",
+    "unit": "60--"
+  },
+  "677": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonorm",
+    "unit": "2--"
+  },
+  "678": {
+    "dose_time": "1d",
+    "dose_unit": 0.5,
+    "name": "sertralina",
+    "unit": null
+  },
+  "679": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "emconcor",
+    "unit": "5--"
+  },
+  "680": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "euglucon",
+    "unit": "5--"
+  },
+  "681": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "682": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "ideoz",
+    "unit": null
+  },
+  "683": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "xeristar",
+    "unit": "60--"
+  },
+  "684": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "685": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "natecal d",
+    "unit": null
+  },
+  "686": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "687": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tiadipona",
+    "unit": null
+  },
+  "688": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclophosphamide",
+    "unit": null
+  },
+  "689": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": null
+  },
+  "690": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "691": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "ameride",
+    "unit": null
+  },
+  "692": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "proflox",
+    "unit": null
+  },
+  "693": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "gabapentina",
+    "unit": null
+  },
+  "694": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fortzaar",
+    "unit": null
+  },
+  "695": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ventolin",
+    "unit": null
+  },
+  "696": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cozaar",
+    "unit": null
+  },
+  "697": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ameride",
+    "unit": null
+  },
+  "698": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adalat oros",
+    "unit": "30--"
+  },
+  "699": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": null
+  },
+  "700": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pariet",
+    "unit": "10--"
+  },
+  "701": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "noctamid",
+    "unit": "2--"
+  },
+  "702": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tebetane",
+    "unit": null
+  },
+  "703": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "atriscal",
+    "unit": "400--"
+  },
+  "704": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "705": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "706": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "707": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "novonorm",
+    "unit": "0.5--"
+  },
+  "708": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "micardis",
+    "unit": null
+  },
+  "709": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "710": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glucose",
+    "unit": null
+  },
+  "711": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "water distiled",
+    "unit": null
+  },
+  "712": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hidroxyl",
+    "unit": null
+  },
+  "713": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "714": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "715": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "716": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "717": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "liplat",
+    "unit": null
+  },
+  "718": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "supradyn",
+    "unit": null
+  },
+  "719": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carvedilol",
+    "unit": "25--"
+  },
+  "720": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tamsulosina",
+    "unit": null
+  },
+  "721": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cipralex",
+    "unit": null
+  },
+  "722": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pritor",
+    "unit": null
+  },
+  "723": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "orfidal",
+    "unit": null
+  },
+  "724": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "idaptan",
+    "unit": null
+  },
+  "725": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "idaptan",
+    "unit": null
+  },
+  "726": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fosavance",
+    "unit": "70--/5600--"
+  },
+  "727": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "sacalip supra",
+    "unit": "160--"
+  },
+  "728": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic",
+    "unit": "0.4--"
+  },
+  "729": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "trangorex",
+    "unit": null
+  },
+  "730": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dolcopin",
+    "unit": null
+  },
+  "731": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ternormil",
+    "unit": "50--"
+  },
+  "732": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "maxidex gotas",
+    "unit": null
+  },
+  "733": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omacor",
+    "unit": null
+  },
+  "734": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ceprandal",
+    "unit": null
+  },
+  "735": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tramadol",
+    "unit": null
+  },
+  "736": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "captopril",
+    "unit": null
+  },
+  "737": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "amlodipino",
+    "unit": "5--"
+  },
+  "738": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fortzaar",
+    "unit": null
+  },
+  "739": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "norflok",
+    "unit": null
+  },
+  "740": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karvea",
+    "unit": "150--"
+  },
+  "741": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lescol",
+    "unit": "80--"
+  },
+  "742": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "adalat retard",
+    "unit": null
+  },
+  "743": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclophosphamide",
+    "unit": null
+  },
+  "744": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "elgan",
+    "unit": null
+  },
+  "745": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lisinopril hidrocloro",
+    "unit": null
+  },
+  "746": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "747": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "terbasmin",
+    "unit": "500mcg"
+  },
+  "748": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "liplat",
+    "unit": null
+  },
+  "749": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "eutirox",
+    "unit": null
+  },
+  "750": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "vandral retard",
+    "unit": null
+  },
+  "751": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ideos",
+    "unit": null
+  },
+  "752": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "753": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "754": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "salazopirina",
+    "unit": null
+  },
+  "755": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lorazepan",
+    "unit": null
+  },
+  "756": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "torasemida",
+    "unit": null
+  },
+  "757": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "758": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": null
+  },
+  "759": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "760": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "oculetect",
+    "unit": null
+  },
+  "761": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": "50--"
+  },
+  "762": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "763": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": "18--"
+  },
+  "764": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lobivon",
+    "unit": null
+  },
+  "765": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "766": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lorazepan",
+    "unit": null
+  },
+  "767": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "768": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "levotroid",
+    "unit": "100--"
+  },
+  "769": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "noctamid",
+    "unit": "2--"
+  },
+  "770": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dogmatil",
+    "unit": "50--"
+  },
+  "771": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "movalis",
+    "unit": null
+  },
+  "772": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "773": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "vaditon",
+    "unit": "40--"
+  },
+  "774": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "osteopor",
+    "unit": null
+  },
+  "775": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "ixia",
+    "unit": "40--"
+  },
+  "776": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "777": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "atenolol",
+    "unit": "50--"
+  },
+  "778": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "avandamet",
+    "unit": "4--"
+  },
+  "779": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "opiren",
+    "unit": "15--"
+  },
+  "780": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "renitec",
+    "unit": null
+  },
+  "781": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "782": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "provigil bayer",
+    "unit": null
+  },
+  "783": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pentoxifilina belmac",
+    "unit": null
+  },
+  "784": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": "5--"
+  },
+  "785": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "provigil bayer",
+    "unit": null
+  },
+  "786": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lymetel",
+    "unit": "40--"
+  },
+  "787": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "zarator",
+    "unit": null
+  },
+  "788": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ability",
+    "unit": "10--"
+  },
+  "789": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "urolosin",
+    "unit": "0.4--"
+  },
+  "790": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "791": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "cesplon plus",
+    "unit": null
+  },
+  "792": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "losartan",
+    "unit": "50--"
+  },
+  "793": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "dnben",
+    "unit": "850--"
+  },
+  "794": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pariet",
+    "unit": "20--"
+  },
+  "795": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zantac",
+    "unit": "150--"
+  },
+  "796": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "almax",
+    "unit": null
+  },
+  "797": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "20--"
+  },
+  "798": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "cozaar",
+    "unit": "50--"
+  },
+  "799": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "800": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "colemin",
+    "unit": "10--"
+  },
+  "801": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "saetil",
+    "unit": null
+  },
+  "802": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "simbial",
+    "unit": null
+  },
+  "803": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "804": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "hemovas",
+    "unit": "400--"
+  },
+  "805": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "806": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "esberiven",
+    "unit": null
+  },
+  "807": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "coaprovel",
+    "unit": null
+  },
+  "808": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "efferelgan",
+    "unit": "1g"
+  },
+  "809": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dogmatil",
+    "unit": null
+  },
+  "810": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dosasocina",
+    "unit": null
+  },
+  "811": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "terazosina",
+    "unit": null
+  },
+  "812": {
+    "dose_time": "1d",
+    "dose_unit": 0.5,
+    "name": "rexer",
+    "unit": null
+  },
+  "813": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "timogel",
+    "unit": null
+  },
+  "814": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "losferron",
+    "unit": null
+  },
+  "815": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "flixonase",
+    "unit": null
+  },
+  "816": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "brandin",
+    "unit": null
+  },
+  "817": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "triptisel",
+    "unit": "25--"
+  },
+  "818": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "naproxeno ratiopharm",
+    "unit": null
+  },
+  "819": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "820": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "821": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hidroxil",
+    "unit": null
+  },
+  "822": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acfol",
+    "unit": null
+  },
+  "823": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "coropres",
+    "unit": null
+  },
+  "824": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "artedil",
+    "unit": "10--"
+  },
+  "825": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril hidroclorot",
+    "unit": null
+  },
+  "826": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone teva",
+    "unit": null
+  },
+  "827": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fosamax",
+    "unit": null
+  },
+  "828": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prava",
+    "unit": "20--"
+  },
+  "829": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "830": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "synbicort",
+    "unit": null
+  },
+  "831": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": null
+  },
+  "832": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "carduran neo",
+    "unit": null
+  },
+  "833": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plusvent",
+    "unit": "50--/250--"
+  },
+  "834": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "835": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fosavance",
+    "unit": null
+  },
+  "836": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "vesicare",
+    "unit": "5--"
+  },
+  "837": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coropress",
+    "unit": null
+  },
+  "838": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "captopril",
+    "unit": "25--"
+  },
+  "839": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "doxium forte",
+    "unit": null
+  },
+  "840": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metotrexa",
+    "unit": null
+  },
+  "841": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": null
+  },
+  "842": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enantyun",
+    "unit": null
+  },
+  "843": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "300--"
+  },
+  "844": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetil",
+    "unit": "100--"
+  },
+  "845": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glucose",
+    "unit": "20--"
+  },
+  "846": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "transtec",
+    "unit": null
+  },
+  "847": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "co dran forte",
+    "unit": null
+  },
+  "848": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "849": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "moxon",
+    "unit": "0.2--"
+  },
+  "850": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plusvent",
+    "unit": null
+  },
+  "851": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "airtal",
+    "unit": null
+  },
+  "852": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "amlodipino",
+    "unit": null
+  },
+  "853": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "hipoartel",
+    "unit": "20--"
+  },
+  "854": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "pontalsic",
+    "unit": null
+  },
+  "855": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lisinopril",
+    "unit": "32--"
+  },
+  "856": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rivastigmina",
+    "unit": null
+  },
+  "857": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zyloric",
+    "unit": "300--"
+  },
+  "858": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "spiriva",
+    "unit": null
+  },
+  "859": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "tiaprizal",
+    "unit": null
+  },
+  "860": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paroxetina",
+    "unit": null
+  },
+  "861": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ezetrol",
+    "unit": null
+  },
+  "862": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "azopt",
+    "unit": "10--/ml"
+  },
+  "863": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "dnben",
+    "unit": null
+  },
+  "864": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "airtal",
+    "unit": null
+  },
+  "865": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "anaeramil",
+    "unit": null
+  },
+  "866": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "duspatalin",
+    "unit": "135--"
+  },
+  "867": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": null
+  },
+  "868": {
+    "dose_time": "1d",
+    "dose_unit": 3.0,
+    "name": "flatoril",
+    "unit": null
+  },
+  "869": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "water distiled",
+    "unit": null
+  },
+  "870": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "plantaben",
+    "unit": null
+  },
+  "871": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "denubil",
+    "unit": null
+  },
+  "872": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": null
+  },
+  "873": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "loracepan",
+    "unit": null
+  },
+  "874": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "enalapril",
+    "unit": "5--"
+  },
+  "875": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "masdil",
+    "unit": "60--"
+  },
+  "876": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "retinec",
+    "unit": "20--"
+  },
+  "877": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "natecal d",
+    "unit": null
+  },
+  "878": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "879": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "seractil",
+    "unit": null
+  },
+  "880": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": null
+  },
+  "881": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "metotrexa sandoz",
+    "unit": "850--"
+  },
+  "882": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "karvezide",
+    "unit": null
+  },
+  "883": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "norvas",
+    "unit": "5--"
+  },
+  "884": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glucose",
+    "unit": null
+  },
+  "885": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "budesonida aldo union",
+    "unit": null
+  },
+  "886": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "besitran",
+    "unit": "100--"
+  },
+  "887": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "higrotona",
+    "unit": null
+  },
+  "888": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paroxetina",
+    "unit": null
+  },
+  "889": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "890": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "renitec",
+    "unit": "5--"
+  },
+  "891": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acetaminophen",
+    "unit": "40--"
+  },
+  "892": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ospor",
+    "unit": null
+  },
+  "893": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "veriscal d",
+    "unit": null
+  },
+  "894": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "coropres",
+    "unit": "6.25--"
+  },
+  "895": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "thyle",
+    "unit": null
+  },
+  "896": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ternormil",
+    "unit": null
+  },
+  "897": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "singulair",
+    "unit": null
+  },
+  "898": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "insuline",
+    "unit": null
+  },
+  "899": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ventolin",
+    "unit": null
+  },
+  "900": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "tryptizol",
+    "unit": "75--"
+  },
+  "901": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": null
+  },
+  "902": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "903": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "904": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "cyclosporine",
+    "unit": null
+  },
+  "905": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "906": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "actonel",
+    "unit": "35--"
+  },
+  "907": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dilutol",
+    "unit": null
+  },
+  "908": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "909": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "durogesic matrix",
+    "unit": null
+  },
+  "910": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "911": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "potasio",
+    "unit": null
+  },
+  "912": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "esberiven",
+    "unit": "100--/ml"
+  },
+  "913": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "alodipino",
+    "unit": "5--"
+  },
+  "914": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "915": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "torasemida bayut",
+    "unit": null
+  },
+  "916": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "917": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "inocarplus",
+    "unit": null
+  },
+  "918": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": null
+  },
+  "919": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "dmicron",
+    "unit": null
+  },
+  "920": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "alaactrone",
+    "unit": "100--"
+  },
+  "921": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "acrel",
+    "unit": null
+  },
+  "922": {
+    "dose_time": "1d",
+    "dose_unit": 2.0,
+    "name": "dmben",
+    "unit": "850--"
+  },
+  "923": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "carduran neo",
+    "unit": "4--"
+  },
+  "924": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "zarator",
+    "unit": "10--"
+  },
+  "925": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "926": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "flumil",
+    "unit": "600--"
+  },
+  "927": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "artedil",
+    "unit": null
+  },
+  "928": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "seropram",
+    "unit": "30--"
+  },
+  "929": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "cipralex",
+    "unit": "10--"
+  },
+  "930": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "paracetamol",
+    "unit": "650--"
+  },
+  "931": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "aprovel",
+    "unit": null
+  },
+  "932": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "dnben",
+    "unit": "850--"
+  },
+  "933": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "934": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "minodb",
+    "unit": "5--"
+  },
+  "935": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "acetil",
+    "unit": null
+  },
+  "936": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "idaptan",
+    "unit": null
+  },
+  "937": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "prednisone",
+    "unit": "20--"
+  },
+  "938": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "939": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "geoxina",
+    "unit": null
+  },
+  "940": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "carduran neo",
+    "unit": null
+  },
+  "941": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "alapryl",
+    "unit": null
+  },
+  "942": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "urolosin",
+    "unit": null
+  },
+  "943": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "euglucon",
+    "unit": "5--"
+  },
+  "944": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "alprazolam bayvit",
+    "unit": "2--"
+  },
+  "945": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "manidon hta",
+    "unit": "240--"
+  },
+  "946": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "glucobay",
+    "unit": null
+  },
+  "947": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "teveleris",
+    "unit": null
+  },
+  "948": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "fluimucil forte",
+    "unit": null
+  },
+  "949": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "lantanon",
+    "unit": null
+  },
+  "950": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  },
+  "951": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ixia",
+    "unit": null
+  },
+  "952": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "omnic",
+    "unit": "0.4--"
+  },
+  "953": {
+    "dose_time": "1d",
+    "dose_unit": 1.0,
+    "name": "ezenhol",
+    "unit": "10--"
+  },
+  "954": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "eutirox",
+    "unit": null
+  },
+  "955": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "ranuver",
+    "unit": null
+  },
+  "956": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": "rituximab",
+    "unit": null
+  },
+  "957": {
+    "dose_time": null,
+    "dose_unit": null,
+    "name": null,
+    "unit": null
+  }
+}

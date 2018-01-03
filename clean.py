@@ -46,12 +46,12 @@ PATIENT_K = [
 def clean_csvfile(name, clean):
   return dict((int(r[0]), clean(r[1:])) for r in read_csvfile(name))
 
-def export_json(data, filename):
-  with open(filename, 'w') as outfile:
+def export_json(data, name):
+  with open('outfiles/%s.json' % (name,), 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
 def read_csvfile(name):
-  csvfile = open('csv_files/%s.csv' % (name,))
+  csvfile = open('csvfiles/%s.csv' % (name,))
   reader = csv.reader(csvfile)
   reader.next()
   matrix = [r for r in reader]
@@ -192,10 +192,10 @@ def get_drug(drugs, index):
 # =======================================================================================
 
 patient = clean_csvfile('patient', clean_patient)
-export_json(patient, 'patient.json')
+export_json(patient, 'patient')
 
 patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
 max_length = max(set([len(v) for k, v in patient_drugs.items()]))
 
 for i in range(max_length):
-  export_json(dict((k, get_drug(v, i)) for k, v in patient_drugs.items()), 'patient_drug%s.json' % i)
+  export_json(dict((k, get_drug(v, i)) for k, v in patient_drugs.items()), 'patient_drug%s' % i)
