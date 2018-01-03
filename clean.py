@@ -185,13 +185,13 @@ def clean_patient(patient_v):
 # MAIN
 # =======================================================================================
 
-patients = read_csvfile('drugs.csv')
+patients = read_csvfile('csv_files/patient_drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
 patients = dict((int(row[0]), clean_drugs(row[1:])) for row in patients)
 
-export_json(patients, 'drugs.json')
+export_json(patients, 'patient_drugs.json')
 
-patients = read_csvfile('kidney-fail.csv')
+patients = read_csvfile('csv_files/patient.csv')
 patients = dict((int(row[0]), clean_patient(row[1:])) for row in patients)
 
-export_json(patients, 'kidney-fail.json')
+export_json(patients, 'patient.json')
