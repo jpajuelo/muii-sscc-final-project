@@ -12,16 +12,16 @@ import re
 # CONSTANTS
 # =======================================================================================
 
-num_re = r'[0-9]+(\.[0-9]+)?'
-unit_re = r'(--|%|mcg|mg|g|ui|ng|ml)'
+NUM_RE = r'[0-9]+(\.[0-9]+)?'
+UNIT_RE = r'(--|%|mcg|mg|g|ui|ng|ml)'
 
-drug_name_re = r'(?P<name>[a-z][a-z0-9]*( [a-z][a-z0-9]*)*)'
-drug_unit_re = r'(?P<unit>%s%s(/(%s)?%s)?)(,(?P<unit_extra>%s%s(/(%s)?%s)?))?' % ((num_re, unit_re) * 4)
-drug_dose_re = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time>(%s)?[a-z]))' % ((num_re,) * 2)
+DRUG_NAME_RE = r'(?P<name>[a-z][a-z0-9]*( [a-z][a-z0-9]*)*)'
+DRUG_UNIT_RE = r'(?P<unit>%s%s(/(%s)?%s)?)(,(?P<unit_extra>%s%s(/(%s)?%s)?))?' % ((NUM_RE, UNIT_RE) * 4)
+DRUG_DOSE_RE = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time>(%s)?[a-z]))' % ((NUM_RE,) * 2)
 
-drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, drug_dose_re))
+DRUG_PATTERN = re.compile(r'^%s( %s)?( %s)?$' % (DRUG_NAME_RE, DRUG_UNIT_RE, DRUG_DOSE_RE))
 
-patient_k = [
+PATIENT_K = [
   'height',
   'weight',
   'blood_urea_nitrogen',
@@ -79,7 +79,7 @@ def parse_float(val):
 # =======================================================================================
 
 def clean_patient(patient_v):
-  patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
+  patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(PATIENT_K, patient_v))
 
   patient.update({
     'height': parse_float(patient.get('height') / 0.39370),
@@ -115,27 +115,27 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r'\buno\b', '1')
     drug = replace(drug, r'\bdos\b', '2')
     drug = replace(drug, r'(?P<a>[0-9]) ?(cucha|inhal)[a-z]+', '%su', ['a'])
-    drug = replace(drug, r' ?%su/?$' % (num_re,), '')
+    drug = replace(drug, r' ?%su/?$' % (NUM_RE,), '')
     drug = replace(drug, r'-- 1$', '--')
-    drug = replace(drug, r'u cada (?P<a>%s) ?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
-    drug = replace(drug, r'u/(?P<a>%s)?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r'u cada (?P<a>%s) ?(?P<b>[a-z]).+$' % (NUM_RE,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r'u/(?P<a>%s)?(?P<b>[a-z]).+$' % (NUM_RE,), 'u/%s%s', ['a', 'b'])
     drug = replace(drug, r' 0 ?(?P<a>[0-9])', ' 0.%s', ['a'])
     drug = replace(drug, r'^0(?P<a>[a-z])', 'o%s', ['a'])
     drug = replace(drug, r'(?P<a>[a-z]+)(?P<b>[0-9])', '%s %s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z0-9])', '%s %s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9])[ a-z]*al (?P<b>(m|d|s)).*', '%su/%s', ['a', 'b'])
-    drug = replace(drug, r'(?P<a>[0-9]) (?P<b>%s)u' % (num_re,), '%s-- %su', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]) (?P<b>%s)u' % (NUM_RE,), '%s-- %su', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)--', '%s.%s--', ['a', 'b'])
-    drug = replace(drug, r'(?P<a>[0-9])/(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9])/(?P<b>%s)--' % (NUM_RE,), '%s--/%s--', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[a-z]{2,})/(?P<b>[a-z]{2,})', '%s %s', ['a', 'b'])
     drug = replace(drug, r' ?m[a-z]*c[a-z]*g[a-z]*', 'mcg')
     drug = replace(drug, r'\.(?![0-9])', '')
     drug = replace(drug, r'b 12', 'b12')
-    drug = replace(drug, r'\b(?P<a>[a-z]+) (?P<b>%s)$' % (num_re,), '%s %s--', ['a', 'b'])
+    drug = replace(drug, r'\b(?P<a>[a-z]+) (?P<b>%s)$' % (NUM_RE,), '%s %s--', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]) ?gr?\b', '%sg', ['a'])
-    drug = replace(drug, r'(?P<a>[0-9])--( |\+)(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9])--( |\+)(?P<b>%s)--' % (NUM_RE,), '%s--/%s--', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]) ?m\b', '%smg', ['a'])
-    drug = replace(drug, r'u (?P<a>%s)(?P<b>[a-z])$' % (num_re,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r'u (?P<a>%s)(?P<b>[a-z])$' % (NUM_RE,), 'u/%s%s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+) (?P<c>[0-9]+)', '%s--/%s.%s--', ['a', 'b', 'c'])
     drug = replace(drug, r'durante (?P<a>[0-9]+) h.*', '1u/%sh', ['a'])
     drug = replace(drug, r'(?P<a>[0-9])[ a-z]+d[a-z]*ria', '%su/d', ['a'])
@@ -144,7 +144,7 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r'(?P<a>[0-9]+)-- (?P<b>[a-z]+)', '%s %s--', ['b', 'a'])
     drug = replace(drug, r'(?P<a>[0-9]+)/(?P<b>[a-z])$', '%su/%s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]) (?P<b>[a-z]{2})$', '%s%s', ['a', 'b'])
-    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>%s)(?P<c>(--|mcg))' % (num_re,), '%s--/%s%s', ['a', 'b', 'c'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>%s)(?P<c>(--|mcg))' % (NUM_RE,), '%s--/%s%s', ['a', 'b', 'c'])
     drug = replace(drug, r'(?P<a>[0-9]+) 1/2', '%s.5--', ['a'])
     drug = replace(drug, r'(?P<a>[a-z]+) 1/2', '%s 0.5--', ['a'])
     drug = replace(drug, r'3/4', '0.75')
@@ -159,7 +159,7 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
     drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
 
-    match = drug_pattern.search(drug)
+    match = DRUG_PATTERN.search(drug)
 
     name = match.group('name')
     unit = match.group('unit')
