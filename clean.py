@@ -42,12 +42,15 @@ patient_k = [
 # HELPERS
 # =======================================================================================
 
+def clean_csvfile(name, clean):
+  return dict((int(r[0]), clean(r[1:])) for r in read_csvfile(name))
+
 def export_json(data, filename):
   with open(filename, 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
-def read_csvfile(filename):
-  csvfile = open(filename)
+def read_csvfile(name):
+  csvfile = open('csv_files/%s.csv' % (name,))
   reader = csv.reader(csvfile)
   reader.next()
   matrix = [r for r in reader]
@@ -146,7 +149,22 @@ def clean_drug(drug):
 
   return dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time)
 
-def clean_drugs(drugs):
+def clean_patient(patient_v):
+  patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
+
+  patient.update({
+    'height': parse_float(patient.get('height') / 0.39370),
+    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
+    'weight': parse_float(patient.get('weight') / 2.2046)
+  })
+
+  patient.update({
+    'blood_mass_index': parse_float(patient.get('weight') / (patient.get('height') * 0.01) ** 2)
+  })
+
+  return patient
+
+def clean_patient_drugs(drugs):
   drugs = map(clean_drug, drugs)
 
   patient_drugs = []
@@ -169,31 +187,12 @@ def clean_drugs(drugs):
 
   return patient_drugs
 
-def clean_patient(patient_v):
-  patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
-
-  patient.update({
-    'height': parse_float(patient.get('height') / 0.39370),
-    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
-    'weight': parse_float(patient.get('weight') / 2.2046)
-  })
-
-  patient.update({
-    'blood_mass_index': parse_float(patient.get('weight') / (patient.get('height') * 0.01) ** 2)
-  })
-
-  return patient
-
 # =======================================================================================
 # MAIN
 # =======================================================================================
 
-patients = read_csvfile('csv_files/patient_drugs.csv')
-patients = dict((int(row[0]), clean_drugs(row[1:])) for row in patients)
+patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
+export_json(patient_drugs, 'patient_drugs.json')
 
-export_json(patients, 'patient_drugs.json')
-
-patients = read_csvfile('csv_files/patient.csv')
-patients = dict((int(row[0]), clean_patient(row[1:])) for row in patients)
-
-export_json(patients, 'patient.json')
+patient = clean_csvfile('patient', clean_patient)
+export_json(patient, 'patient.json')
