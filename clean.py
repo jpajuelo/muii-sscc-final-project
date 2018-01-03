@@ -79,6 +79,9 @@ def clean_drug(drug):
   drug = ' '.join(filter(lambda s: len(s) > 0, drug.split(' ')))
   drug = drug.lower()
 
+  if drug in ['n', 'na']:
+    return dict(name=None, unit=[], dose_unit=None, dose_time=None)
+
   drug = replace(drug, r'(Á|á|Ä|ä)', 'a')
   drug = replace(drug, r'(É|é)', 'e')
   drug = replace(drug, r'(Í|í)', 'i')
@@ -186,7 +189,6 @@ def clean_patient(patient_v):
 # =======================================================================================
 
 patients = read_csvfile('csv_files/patient_drugs.csv')
-patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
 patients = dict((int(row[0]), clean_drugs(row[1:])) for row in patients)
 
 export_json(patients, 'patient_drugs.json')
