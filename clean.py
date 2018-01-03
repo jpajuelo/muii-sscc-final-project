@@ -102,7 +102,7 @@ def clean_patient_drugs(patient_drugs):
     drug = drug.lower()
 
     if drug in ['n', 'na']:
-      cleaned.append(dict(name=None, unit=None, dose_unit=None, dose_time=None))
+      cleaned.append(None)
       continue
 
     drug = replace(drug, r'(Á|á|Ä|ä)', 'a')
@@ -182,12 +182,20 @@ def clean_patient_drugs(patient_drugs):
 
   return cleaned
 
+def get_drug(drugs, index):
+  if index >= len(drugs) or drugs[index] is None:
+    return dict(name=None, unit=None, dose_unit=None, dose_time=None)
+  return drugs[index]
+
 # =======================================================================================
 # MAIN
 # =======================================================================================
 
-patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
-export_json(patient_drugs, 'patient_drugs.json')
-
 patient = clean_csvfile('patient', clean_patient)
 export_json(patient, 'patient.json')
+
+patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
+max_length = max(set([len(v) for k, v in patient_drugs.items()]))
+
+for i in range(max_length):
+  export_json(dict((k, get_drug(v, i)) for k, v in patient_drugs.items()), 'patient_drug%s.json' % i)
