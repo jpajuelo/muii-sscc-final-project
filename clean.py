@@ -143,6 +143,29 @@ def clean_drug(drug):
 
   return dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time)
 
+def clean_drugs(drugs):
+  drugs = map(clean_drug, drugs)
+
+  patient_drugs = []
+
+  for d in drugs:
+    for u in d.get('unit'):
+      patient_drugs.append({
+        'name': d.get('name'),
+        'unit': u,
+        'dose_unit': d.get('dose_unit'),
+        'dose_time': d.get('dose_time'),
+      })
+    else:
+      patient_drugs.append({
+        'name': d.get('name'),
+        'unit': None,
+        'dose_unit': d.get('dose_unit'),
+        'dose_time': d.get('dose_time'),
+      })
+
+  return patient_drugs
+
 def clean_patient(patient_v):
   patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
 
@@ -164,7 +187,7 @@ def clean_patient(patient_v):
 
 patients = read_csvfile('drugs.csv')
 patients = [filter(lambda col: col not in ['N', 'NA'], row) for row in patients]
-patients = dict((int(row[0]), map(clean_drug, row[1:])) for row in patients)
+patients = dict((int(row[0]), clean_drugs(row[1:])) for row in patients)
 
 export_json(patients, 'drugs.json')
 
