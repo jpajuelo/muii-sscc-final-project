@@ -58,7 +58,7 @@ def read_csvfile(name):
   csvfile.close()
   return matrix
 
-def replace(val, old, new, params=[], out=False):
+def replace(val, old, new, params=[], debug=False):
 
   def repl(match):
     groups = ['' if i is None else i for i in [match.group(k) for k in params]]
@@ -68,8 +68,8 @@ def replace(val, old, new, params=[], out=False):
   value = re.sub(regex, repl, val)
   value = re.sub(regex, repl, value)
 
-  if out and value != val:
-    print val + ' --> ' + value
+  if debug and value != val:
+    print '%s // %s' % (val, value)
   return value
 
 def parse_float(val):
