@@ -1,18 +1,30 @@
 # MUII - Sistemas Cognitivos - Proyecto Final
 
-Para crear el fichero **drugs.json**, ejecuta el siguiente comando:
+Ejecutando el siguiente comando, sobreescribe los ficheros de salida que se encuentran en el directorio [outfiles](https://github.com/jpajuelo/muii-sscc-final-project/tree/develop/outfiles).
 
 ```sh
-$ python parse-drugs.py
+$ python clean.py
 ```
 
-Para crear el fichero **kidney-fail.json**, ejecuta el siguiente comando:
+## 1. Información del paciente
 
-```sh
-$ python parse-kidney-fail.py
-```
+* **basophil**: Tipo: float. Unidad: %. Basófilos.
+* **blood_mass_index**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
+* **blood_sugar**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
+* **blood_urea_nitrogen**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
+* **eosinophil**: Tipo: float. Unidad: %. Eosinófilos.
+* **height**: Tipo: float. Unidad: cm. Altura.
+* **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
+* **mean_platelet_volume**: Tipo: float. Unidad: fL. Volumen plaquetario medio.
+* **monocyte**: Tipo: float. Unidad: %. Monocitos.
+* **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
+* **platelet**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
+* **tflr**: ??? Unknown variable. No information provided by the hospital.
+* **triglyceride**: Tipo: float. Unidad: mg/dl. Triglicéridos.
+* **weight**: Tipo: float. Unidad: kg. Peso.
+* **white_blood_cell**: Tipo: float. Unidad: 10^9/L. Conteo de glóbulos blancos o leucocitos.
 
-## 1. Medicamentos
+## 2. Medicamentos del paciente
 
 El formato de cada medicamento, que ha tomado cierto paciente, es el siguiente:
 
@@ -46,24 +58,6 @@ Un ejemplo es el siguiente:
 * 1u/s
 
 Con esta expresión se entiende que el paciente tomó dicho medicamento cada 2 dias o cada semana.
-
-## 2. Información del paciente
-
-* **basophil**: Tipo: float. Unidad: %. Basófilos.
-* **blood_mass_index**: Tipo: float. Unidad: kg/m2. Indice de masa corporal.
-* **blood_sugar**: Tipo: float. Unidad: mg/dl. Niveles de azúcar en sangre.
-* **blood_urea_nitrogen**: Tipo: float. Unidad: mg/dl. Nitrógeno ureico en sangre.
-* **eosinophil**: Tipo: float. Unidad: %. Eosinófilos.
-* **height**: Tipo: float. Unidad: cm. Altura.
-* **kidney_failure**: Tipo: boolean. Si el paciente ha sufrido un fallo renal.
-* **mean_platelet_volume**: Tipo: float. Unidad: fL. Volumen plaquetario medio.
-* **monocyte**: Tipo: float. Unidad: %. Monocitos.
-* **neutrophil**: Tipo: float. Unidad: %. Neutrofilos o granulocitos.
-* **platelet**: Tipo: float. Unidad: 10^9/L. Conteo de plaquetas.
-* **tflr**: ??? Unknown variable. No information provided by the hospital.
-* **triglyceride**: Tipo: float. Unidad: mg/dl. Triglicéridos.
-* **weight**: Tipo: float. Unidad: kg. Peso.
-* **white_blood_cell**: Tipo: float. Unidad: 10^9/L. Conteo de glóbulos blancos o leucocitos.
 
 ## 3. Referencias
 
