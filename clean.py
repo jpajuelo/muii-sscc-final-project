@@ -94,7 +94,7 @@ def clean_drug(drug):
   drug = replace(drug, r'-- 1$', '--')
   drug = replace(drug, r'u cada (?P<a>%s) ?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
   drug = replace(drug, r'u/(?P<a>%s)?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
-  drug = replace(drug, r' 0 ?(?P<a>[0-9])', '0.%s', ['a'])
+  drug = replace(drug, r' 0 ?(?P<a>[0-9])', ' 0.%s', ['a'])
   drug = replace(drug, r'^0(?P<a>[a-z])', 'o%s', ['a'])
   drug = replace(drug, r'(?P<a>[a-z]+)(?P<b>[0-9])', '%s %s', ['a', 'b'])
   drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z0-9])', '%s %s', ['a', 'b'])
