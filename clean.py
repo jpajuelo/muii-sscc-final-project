@@ -14,8 +14,9 @@ import re
 
 NUM_RE = r'[0-9]+(\.[0-9]+)?'
 UNIT_RE = r'(--|%|mcg|mg|g|ui|ng|ml)'
+NAME_RE = r'[a-z][a-z0-9]*( [a-z][a-z0-9]*)*'
 
-DRUG_NAME_RE = r'(?P<name>[a-z][a-z0-9]*( [a-z][a-z0-9]*)*)'
+DRUG_NAME_RE = r'(?P<name>%s)(,(?P<name_extra>%s))?' % ((NAME_RE,) * 2)
 DRUG_UNIT_RE = r'(?P<unit>%s%s(/(%s)?%s)?)(,(?P<unit_extra>%s%s(/(%s)?%s)?))?' % ((NUM_RE, UNIT_RE) * 4)
 DRUG_DOSE_RE = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time>(%s)?[a-z]))' % ((NUM_RE,) * 2)
 
@@ -158,6 +159,7 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r'(?P<a>[0-9]+)(--)? y (?P<b>[0-9]+)(--)?', '%s--,%s--', ['a', 'b'])
     drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
     drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
+    drug = replace(drug, r'^(?P<a>[a-z]+( [a-z]+)*) y (?P<b>[a-z]+( [a-z]+)*)', '%s,%s', ['a', 'b'])
 
     match = DRUG_PATTERN.search(drug)
 
@@ -168,10 +170,15 @@ def clean_patient_drugs(patient_drugs):
 
     cleaned.append(dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time))
 
-    unit = match.group('unit_extra')
+    name_extra = match.group('name_extra')
 
-    if unit is not None:
-      cleaned.append(dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time))
+    if name_extra is not None:
+      cleaned.append(dict(name=name_extra, unit=unit, dose_unit=dose_unit, dose_time=dose_time))
+
+    unit_extra = match.group('unit_extra')
+
+    if unit_extra is not None:
+      cleaned.append(dict(name=name, unit=unit_extra, dose_unit=dose_unit, dose_time=dose_time))
 
   return cleaned
 
