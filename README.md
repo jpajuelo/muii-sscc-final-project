@@ -28,7 +28,9 @@ $ python clean.py
 
 El formato de cada medicamento, que ha tomado cierto paciente, es el siguiente:
 
-> <nombre del medicamento> <cantidad del medicamento> <dosis del paciente>
+```
+<nombre del medicamento> <cantidad del medicamento> <dosis del paciente>
+```
 
 Cada segmento contiene:
   - **name**: Tipo *String*. Texto que puede contener caracteres, numeros y espacios.
