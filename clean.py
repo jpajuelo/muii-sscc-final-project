@@ -17,7 +17,7 @@ unit_re = r'(--|%|mcg|mg|g|ui|ng|ml)'
 
 drug_name_re = r'(?P<name>[a-z][a-z0-9]*( [a-z][a-z0-9]*)*)'
 drug_unit_re = r'(?P<unit>%s%s(/(%s)?%s)?)(,(?P<unit_extra>%s%s(/(%s)?%s)?))?' % ((num_re, unit_re) * 4)
-drug_dose_re = r'(?P<dose>%su/(%s)?[a-z])' % ((num_re,) * 2)
+drug_dose_re = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time>(%s)?[a-z]))' % ((num_re,) * 2)
 
 drug_pattern = re.compile(r'^%s( %s)?( %s)?$' % (drug_name_re, drug_unit_re, drug_dose_re))
 
@@ -69,7 +69,7 @@ def replace(val, old, new, params=[], out=False):
   return value
 
 def parse_float(val):
-  return float("%.2f" % (float(val),))
+  return None if val is None else float("%.2f" % (float(val),))
 
 # =======================================================================================
 # METHODS
@@ -132,14 +132,16 @@ def clean_drug(drug):
   drug = replace(drug, r'(?P<a>[0-9])oo--', '%s00--', ['a'])
   drug = replace(drug, r'(?P<a>[0-9]+)(--)? y (?P<b>[0-9]+)(--)?', '%s--,%s--', ['a', 'b'])
   drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
+  drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
 
   match = drug_pattern.search(drug)
 
   name = match.group('name')
   unit = [u for u in [match.group('unit'), match.group('unit_extra')] if u is not None]
-  dose = match.group('dose')
+  dose_unit = parse_float(match.group('dose_unit'))
+  dose_time = match.group('dose_time')
 
-  return dict(name=name, unit=unit, dose=dose)
+  return dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time)
 
 def clean_patient(patient_v):
   patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
