@@ -78,77 +78,6 @@ def parse_float(val):
 # METHODS
 # =======================================================================================
 
-def clean_drug(drug):
-  drug = ' '.join(filter(lambda s: len(s) > 0, drug.split(' ')))
-  drug = drug.lower()
-
-  if drug in ['n', 'na']:
-    return dict(name=None, unit=[], dose_unit=None, dose_time=None)
-
-  drug = replace(drug, r'(Á|á|Ä|ä)', 'a')
-  drug = replace(drug, r'(É|é)', 'e')
-  drug = replace(drug, r'(Í|í)', 'i')
-  drug = replace(drug, r'(Ó|ó)', 'o')
-  drug = replace(drug, r'(Ú|ú)', 'u')
-  drug = replace(drug, r'(\(|_|\))', '')
-  drug = replace(drug, r'o\.', '0.')
-  drug = replace(drug, r' -', '-')
-  drug = replace(drug, r'\buno\b', '1')
-  drug = replace(drug, r'\bdos\b', '2')
-  drug = replace(drug, r'(?P<a>[0-9]) ?(cucha|inhal)[a-z]+', '%su', ['a'])
-  drug = replace(drug, r' ?%su/?$' % (num_re,), '')
-  drug = replace(drug, r'-- 1$', '--')
-  drug = replace(drug, r'u cada (?P<a>%s) ?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
-  drug = replace(drug, r'u/(?P<a>%s)?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
-  drug = replace(drug, r' 0 ?(?P<a>[0-9])', ' 0.%s', ['a'])
-  drug = replace(drug, r'^0(?P<a>[a-z])', 'o%s', ['a'])
-  drug = replace(drug, r'(?P<a>[a-z]+)(?P<b>[0-9])', '%s %s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z0-9])', '%s %s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9])[ a-z]*al (?P<b>(m|d|s)).*', '%su/%s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]) (?P<b>%s)u' % (num_re,), '%s-- %su', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)--', '%s.%s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9])/(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[a-z]{2,})/(?P<b>[a-z]{2,})', '%s %s', ['a', 'b'])
-  drug = replace(drug, r' ?m[a-z]*c[a-z]*g[a-z]*', 'mcg')
-  drug = replace(drug, r'\.(?![0-9])', '')
-  drug = replace(drug, r'b 12', 'b12')
-  drug = replace(drug, r'\b(?P<a>[a-z]+) (?P<b>%s)$' % (num_re,), '%s %s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]) ?gr?\b', '%sg', ['a'])
-  drug = replace(drug, r'(?P<a>[0-9])--( |\+)(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]) ?m\b', '%smg', ['a'])
-  drug = replace(drug, r'u (?P<a>%s)(?P<b>[a-z])$' % (num_re,), 'u/%s%s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+) (?P<c>[0-9]+)', '%s--/%s.%s--', ['a', 'b', 'c'])
-  drug = replace(drug, r'durante (?P<a>[0-9]+) h.*', '1u/%sh', ['a'])
-  drug = replace(drug, r'(?P<a>[0-9])[ a-z]+d[a-z]*ria', '%su/d', ['a'])
-  drug = replace(drug, r'--/(?P<a>[0-9]+)h.*', '-- 1u/%sh', ['a'])
-  drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[a-z]{4,})', '%s %s--', ['b', 'a'])
-  drug = replace(drug, r'(?P<a>[0-9]+)-- (?P<b>[a-z]+)', '%s %s--', ['b', 'a'])
-  drug = replace(drug, r'(?P<a>[0-9]+)/(?P<b>[a-z])$', '%su/%s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]) (?P<b>[a-z]{2})$', '%s%s', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>%s)(?P<c>(--|mcg))' % (num_re,), '%s--/%s%s', ['a', 'b', 'c'])
-  drug = replace(drug, r'(?P<a>[0-9]+) 1/2', '%s.5--', ['a'])
-  drug = replace(drug, r'(?P<a>[a-z]+) 1/2', '%s 0.5--', ['a'])
-  drug = replace(drug, r'3/4', '0.75')
-  drug = replace(drug, r'(?P<a>[0-9])-- (?P<b>[0-9]+) (?P<c>[0-9]+)', '%s--/%s.%s--', ['a', 'b', 'c'])
-  drug = replace(drug, r'(?P<a>[0-9])-- ñ(?P<b>[0-9])u/', '%s-- %su/', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)mg', '%s.%smg', ['a', 'b'])
-  drug = replace(drug, r'-- (?P<a>[0-9]+)mg', '--/%smg', ['a'])
-  drug = replace(drug, r'(?P<a>[0-9]+)--/(?P<b>[0-9]+)$', '%s--/%s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9]+)-(?P<b>[0-9]+)--', '%s--/%s--', ['a', 'b'])
-  drug = replace(drug, r'(?P<a>[0-9])oo--', '%s00--', ['a'])
-  drug = replace(drug, r'(?P<a>[0-9]+)(--)? y (?P<b>[0-9]+)(--)?', '%s--,%s--', ['a', 'b'])
-  drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
-  drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
-
-  match = drug_pattern.search(drug)
-
-  name = match.group('name')
-  unit = [u for u in [match.group('unit'), match.group('unit_extra')] if u is not None]
-  dose_unit = parse_float(match.group('dose_unit'))
-  dose_time = match.group('dose_time')
-
-  return dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time)
-
 def clean_patient(patient_v):
   patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(patient_k, patient_v))
 
@@ -164,28 +93,87 @@ def clean_patient(patient_v):
 
   return patient
 
-def clean_patient_drugs(drugs):
-  drugs = map(clean_drug, drugs)
+def clean_patient_drugs(patient_drugs):
+  cleaned = []
 
-  patient_drugs = []
+  for drug in patient_drugs:
+    drug = ' '.join(filter(lambda s: len(s) > 0, drug.split(' ')))
+    drug = drug.lower()
 
-  for d in drugs:
-    for u in d.get('unit'):
-      patient_drugs.append({
-        'name': d.get('name'),
-        'unit': u,
-        'dose_unit': d.get('dose_unit'),
-        'dose_time': d.get('dose_time'),
-      })
-    else:
-      patient_drugs.append({
-        'name': d.get('name'),
-        'unit': None,
-        'dose_unit': d.get('dose_unit'),
-        'dose_time': d.get('dose_time'),
-      })
+    if drug in ['n', 'na']:
+      cleaned.append(dict(name=None, unit=None, dose_unit=None, dose_time=None))
+      continue
 
-  return patient_drugs
+    drug = replace(drug, r'(Á|á|Ä|ä)', 'a')
+    drug = replace(drug, r'(É|é)', 'e')
+    drug = replace(drug, r'(Í|í)', 'i')
+    drug = replace(drug, r'(Ó|ó)', 'o')
+    drug = replace(drug, r'(Ú|ú)', 'u')
+    drug = replace(drug, r'(\(|_|\))', '')
+    drug = replace(drug, r'o\.', '0.')
+    drug = replace(drug, r' -', '-')
+    drug = replace(drug, r'\buno\b', '1')
+    drug = replace(drug, r'\bdos\b', '2')
+    drug = replace(drug, r'(?P<a>[0-9]) ?(cucha|inhal)[a-z]+', '%su', ['a'])
+    drug = replace(drug, r' ?%su/?$' % (num_re,), '')
+    drug = replace(drug, r'-- 1$', '--')
+    drug = replace(drug, r'u cada (?P<a>%s) ?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r'u/(?P<a>%s)?(?P<b>[a-z]).+$' % (num_re,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r' 0 ?(?P<a>[0-9])', ' 0.%s', ['a'])
+    drug = replace(drug, r'^0(?P<a>[a-z])', 'o%s', ['a'])
+    drug = replace(drug, r'(?P<a>[a-z]+)(?P<b>[0-9])', '%s %s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z0-9])', '%s %s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9])[ a-z]*al (?P<b>(m|d|s)).*', '%su/%s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]) (?P<b>%s)u' % (num_re,), '%s-- %su', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)--', '%s.%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9])/(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[a-z]{2,})/(?P<b>[a-z]{2,})', '%s %s', ['a', 'b'])
+    drug = replace(drug, r' ?m[a-z]*c[a-z]*g[a-z]*', 'mcg')
+    drug = replace(drug, r'\.(?![0-9])', '')
+    drug = replace(drug, r'b 12', 'b12')
+    drug = replace(drug, r'\b(?P<a>[a-z]+) (?P<b>%s)$' % (num_re,), '%s %s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]) ?gr?\b', '%sg', ['a'])
+    drug = replace(drug, r'(?P<a>[0-9])--( |\+)(?P<b>%s)--' % (num_re,), '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]) ?m\b', '%smg', ['a'])
+    drug = replace(drug, r'u (?P<a>%s)(?P<b>[a-z])$' % (num_re,), 'u/%s%s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+) (?P<c>[0-9]+)', '%s--/%s.%s--', ['a', 'b', 'c'])
+    drug = replace(drug, r'durante (?P<a>[0-9]+) h.*', '1u/%sh', ['a'])
+    drug = replace(drug, r'(?P<a>[0-9])[ a-z]+d[a-z]*ria', '%su/d', ['a'])
+    drug = replace(drug, r'--/(?P<a>[0-9]+)h.*', '-- 1u/%sh', ['a'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[a-z]{4,})', '%s %s--', ['b', 'a'])
+    drug = replace(drug, r'(?P<a>[0-9]+)-- (?P<b>[a-z]+)', '%s %s--', ['b', 'a'])
+    drug = replace(drug, r'(?P<a>[0-9]+)/(?P<b>[a-z])$', '%su/%s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]) (?P<b>[a-z]{2})$', '%s%s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>%s)(?P<c>(--|mcg))' % (num_re,), '%s--/%s%s', ['a', 'b', 'c'])
+    drug = replace(drug, r'(?P<a>[0-9]+) 1/2', '%s.5--', ['a'])
+    drug = replace(drug, r'(?P<a>[a-z]+) 1/2', '%s 0.5--', ['a'])
+    drug = replace(drug, r'3/4', '0.75')
+    drug = replace(drug, r'(?P<a>[0-9])-- (?P<b>[0-9]+) (?P<c>[0-9]+)', '%s--/%s.%s--', ['a', 'b', 'c'])
+    drug = replace(drug, r'(?P<a>[0-9])-- ñ(?P<b>[0-9])u/', '%s-- %su/', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)mg', '%s.%smg', ['a', 'b'])
+    drug = replace(drug, r'-- (?P<a>[0-9]+)mg', '--/%smg', ['a'])
+    drug = replace(drug, r'(?P<a>[0-9]+)--/(?P<b>[0-9]+)$', '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9]+)-(?P<b>[0-9]+)--', '%s--/%s--', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[0-9])oo--', '%s00--', ['a'])
+    drug = replace(drug, r'(?P<a>[0-9]+)(--)? y (?P<b>[0-9]+)(--)?', '%s--,%s--', ['a', 'b'])
+    drug = replace(drug, r'^(?P<a>[a-z]+) (?P<b>[0-9]+)(fa)? [0-9]+$', '%s %s--', ['a', 'b'])
+    drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
+
+    match = drug_pattern.search(drug)
+
+    name = match.group('name')
+    unit = match.group('unit')
+    dose_unit = parse_float(match.group('dose_unit'))
+    dose_time = match.group('dose_time')
+
+    cleaned.append(dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time))
+
+    unit = match.group('unit_extra')
+
+    if unit is not None:
+      cleaned.append(dict(name=name, unit=unit, dose_unit=dose_unit, dose_time=dose_time))
+
+  return cleaned
 
 # =======================================================================================
 # MAIN
