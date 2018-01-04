@@ -47,7 +47,7 @@ def clean_csvfile(name, clean):
   return dict((int(r[0]), clean(r[1:])) for r in read_csvfile(name))
 
 def export_json(data, name):
-  with open('outfiles/%s.json' % (name,), 'w') as outfile:
+  with open('%s.json' % (name,), 'w') as outfile:
     json.dump(data, outfile, indent=2, separators=(',', ': '), sort_keys=True)
 
 def read_csvfile(name):
@@ -102,7 +102,6 @@ def clean_patient_drugs(patient_drugs):
     drug = drug.lower()
 
     if drug in ['n', 'na']:
-      cleaned.append(None)
       continue
 
     drug = replace(drug, r'(Á|á|Ä|ä)', 'a')
@@ -182,20 +181,17 @@ def clean_patient_drugs(patient_drugs):
 
   return cleaned
 
-def get_drug(drugs, index):
-  if index >= len(drugs) or drugs[index] is None:
-    return dict(name=None, unit=None, dose_unit=None, dose_time=None)
-  return drugs[index]
-
 # =======================================================================================
 # MAIN
 # =======================================================================================
 
 patient = clean_csvfile('patient', clean_patient)
-export_json(patient, 'patient')
-
 patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
-max_length = max(set([len(v) for k, v in patient_drugs.items()]))
 
-for i in range(max_length):
-  export_json(dict((k, get_drug(v, i)) for k, v in patient_drugs.items()), 'patient_drug%s' % i)
+for p_id, p_drugs in patient_drugs.items():
+  if p_id in patient:
+    patient.get(p_id).update({
+      'drugs': p_drugs
+    })
+
+export_json(patient, 'patient')
