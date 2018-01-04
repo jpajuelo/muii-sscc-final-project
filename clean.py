@@ -30,7 +30,7 @@ PATIENT_K = [
   'neutrophil',
   'eosinophil',
   'basophil',
-  'blood_sugar',
+  'blood_glucose',
   'platelet',
   'mean_platelet_volume',
   'white_blood_cell',
@@ -82,14 +82,27 @@ def parse_float(val):
 def clean_patient(patient_v):
   patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(PATIENT_K, patient_v))
 
-  patient.update({
-    'height': parse_float(patient.get('height') / 0.39370),
-    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
-    'weight': parse_float(patient.get('weight') / 2.2046)
-  })
+  bmp_k = ['blood_glucose', 'blood_urea_nitrogen', 'triglyceride']
+  bmp_v = [patient.pop(k) for k in bmp_k]
+
+  wbc_k = ['basophil', 'eosinophil', 'monocyte', 'neutrophil']
+  wbc_v = [patient.pop(k) for k in wbc_k]
+
+  bc_k = ['mean_platelet_volume', 'platelet', 'white_blood_cell']
+  bc_v = [patient.pop(k) for k in bc_k]
+
+  bc_type = None if None in bc_v else dict(zip(bc_k, bc_v))
+
+  if bc_type is not None:
+    bc_type.update({
+      'white_blood_cell_type': None if None in wbc_v else dict(zip(wbc_k, wbc_v))
+    })
 
   patient.update({
-    'blood_mass_index': parse_float(patient.get('weight') / (patient.get('height') * 0.01) ** 2)
+    'basic_metalobic_panel': None if None in bmp_v else dict(zip(bmp_k, bmp_v)),
+    'blood_mass_index': parse_float(703 * (patient.pop('weight') / patient.pop('height') ** 2)),
+    'blood_cell_type': bc_type,
+    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
   })
 
   return patient
