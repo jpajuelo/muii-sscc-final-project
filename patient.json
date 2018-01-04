@@ -68,7 +68,7 @@
       },
       {
         "dose": null,
-        "name": "daomil",
+        "name": "daonil",
         "unit": null
       },
       {
@@ -483,7 +483,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "hemovass",
+        "name": "hemovas",
         "unit": null
       }
     ],
@@ -779,7 +779,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": 600.0
       },
       {
@@ -913,12 +913,12 @@
       },
       {
         "dose": null,
-        "name": "tertensin",
+        "name": "tertensif",
         "unit": null
       },
       {
         "dose": null,
-        "name": "zocoor",
+        "name": "zocor",
         "unit": null
       }
     ],
@@ -994,7 +994,7 @@
       },
       {
         "dose": null,
-        "name": "potasio d",
+        "name": "potasio",
         "unit": null
       },
       {
@@ -1215,7 +1215,7 @@
       },
       {
         "dose": null,
-        "name": "karvecide",
+        "name": "karvezide",
         "unit": 300.0
       },
       {
@@ -1459,7 +1459,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
@@ -1492,7 +1492,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "pritor plus",
+        "name": "pritor",
         "unit": 80.0
       }
     ],
@@ -1906,7 +1906,7 @@
       },
       {
         "dose": null,
-        "name": "detrusitol neo",
+        "name": "detrusitol",
         "unit": 4.0
       },
       {
@@ -1997,12 +1997,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "aitar",
+        "name": "airtal",
         "unit": null
       },
       {
         "dose": null,
-        "name": "regulaten plus",
+        "name": "regulaten",
         "unit": null
       }
     ],
@@ -2021,7 +2021,7 @@
       },
       {
         "dose": null,
-        "name": "cozaar plus",
+        "name": "cozaar",
         "unit": null
       },
       {
@@ -2116,7 +2116,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": 600.0
       }
     ],
@@ -2177,7 +2177,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "hipoartel plus",
+        "name": "hipoartel",
         "unit": null
       },
       {
@@ -2236,7 +2236,7 @@
       },
       {
         "dose": null,
-        "name": "bayuit",
+        "name": "bayvit",
         "unit": null
       }
     ],
@@ -2450,7 +2450,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -2505,7 +2505,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "pristol",
+        "name": "pritor",
         "unit": 80.0
       },
       {
@@ -2520,7 +2520,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 8.0
       },
       {
@@ -2530,7 +2530,7 @@
       },
       {
         "dose": null,
-        "name": "tanaquene",
+        "name": "tanakene",
         "unit": null
       }
     ],
@@ -2621,7 +2621,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "lexantin",
+        "name": "lexatin",
         "unit": null
       },
       {
@@ -2693,7 +2693,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "cozaar plus",
+        "name": "cozaar",
         "unit": null
       },
       {
@@ -2799,7 +2799,7 @@
       },
       {
         "dose": null,
-        "name": "nitroplas",
+        "name": "nitroplast",
         "unit": null
       },
       {
@@ -3116,7 +3116,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "progandol neo",
+        "name": "progandol",
         "unit": null
       },
       {
@@ -3409,7 +3409,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "tranquimazin",
+        "name": "trankimazin",
         "unit": 0.5
       },
       {
@@ -3419,7 +3419,7 @@
       },
       {
         "dose": null,
-        "name": "paridac",
+        "name": "parizac",
         "unit": null
       }
     ],
@@ -3628,7 +3628,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "atacand plus",
+        "name": "atacand",
         "unit": null
       },
       {
@@ -3638,7 +3638,7 @@
       },
       {
         "dose": null,
-        "name": "analgi plus",
+        "name": "analgi",
         "unit": null
       }
     ],
@@ -3774,7 +3774,7 @@
       },
       {
         "dose": null,
-        "name": "patecta",
+        "name": "pamtecta",
         "unit": null
       }
     ],
@@ -3793,7 +3793,7 @@
       },
       {
         "dose": null,
-        "name": "lisinoprils",
+        "name": "lisinopril",
         "unit": null
       }
     ],
@@ -3826,7 +3826,7 @@
       },
       {
         "dose": null,
-        "name": "cibacen",
+        "name": "zibacen",
         "unit": null
       },
       {
@@ -3912,7 +3912,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophenl",
+        "name": "ibuprohen",
         "unit": 20.0
       },
       {
@@ -4029,7 +4029,7 @@
       },
       {
         "dose": null,
-        "name": "neblik",
+        "name": "neblit",
         "unit": 12.0
       },
       {
@@ -4330,7 +4330,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -4355,7 +4355,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "enalapril merk",
+        "name": "enalapril merck",
         "unit": null
       },
       {
@@ -4394,7 +4394,7 @@
           "time": 168,
           "unit": 1.0
         },
-        "name": "actomel",
+        "name": "actonel",
         "unit": null
       },
       {
@@ -4518,7 +4518,7 @@
       },
       {
         "dose": null,
-        "name": "urolosinocas",
+        "name": "urolosin ocas",
         "unit": null
       },
       {
@@ -4881,12 +4881,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "potasio d",
+        "name": "potasio",
         "unit": null
       },
       {
         "dose": null,
-        "name": "actomel",
+        "name": "actonel",
         "unit": 35.0
       },
       {
@@ -4997,7 +4997,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "norva",
+        "name": "norvas",
         "unit": 10.0
       },
       {
@@ -5093,7 +5093,7 @@
       },
       {
         "dose": null,
-        "name": "atenolon",
+        "name": "atenolol",
         "unit": null
       },
       {
@@ -5322,7 +5322,7 @@
       },
       {
         "dose": null,
-        "name": "doneka plus",
+        "name": "doneka",
         "unit": null
       },
       {
@@ -5332,12 +5332,12 @@
       },
       {
         "dose": null,
-        "name": "novodorm",
+        "name": "novonorm",
         "unit": 2.0
       },
       {
         "dose": null,
-        "name": "opiruma",
+        "name": "optruma",
         "unit": null
       },
       {
@@ -5471,7 +5471,7 @@
       },
       {
         "dose": null,
-        "name": "lorazepan",
+        "name": "lorazepam",
         "unit": null
       }
     ],
@@ -5499,7 +5499,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "micardid",
+        "name": "micardis",
         "unit": null
       },
       {
@@ -5519,7 +5519,7 @@
       },
       {
         "dose": null,
-        "name": "tartensif retard",
+        "name": "tertensif retard",
         "unit": null
       },
       {
@@ -5847,7 +5847,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "deflox",
+        "name": "daflon",
         "unit": 5.0
       },
       {
@@ -5908,7 +5908,7 @@
       },
       {
         "dose": null,
-        "name": "karvecide",
+        "name": "karvezide",
         "unit": null
       }
     ],
@@ -5980,7 +5980,7 @@
       },
       {
         "dose": null,
-        "name": "tegretal",
+        "name": "tegretol",
         "unit": null
       },
       {
@@ -6095,7 +6095,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "regulacion plus",
+        "name": "regulacion",
         "unit": null
       },
       {
@@ -6150,7 +6150,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "doxazosina neo",
+        "name": "doxazosina",
         "unit": 4.0
       },
       {
@@ -6177,7 +6177,7 @@
       },
       {
         "dose": null,
-        "name": "hipoartel plus",
+        "name": "hipoartel",
         "unit": null
       }
     ],
@@ -6220,7 +6220,7 @@
       },
       {
         "dose": null,
-        "name": "enconcor",
+        "name": "emconcor",
         "unit": null
       },
       {
@@ -6379,7 +6379,7 @@
       },
       {
         "dose": null,
-        "name": "citalopran",
+        "name": "citalopram",
         "unit": 20.0
       }
     ],
@@ -6576,7 +6576,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": 600.0
       },
       {
@@ -6737,7 +6737,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "lorazepam normo",
+        "name": "lorazepam normon",
         "unit": 1.0
       },
       {
@@ -6821,7 +6821,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "mastical d",
+        "name": "mastical",
         "unit": null
       },
       {
@@ -6915,7 +6915,7 @@
       },
       {
         "dose": null,
-        "name": "pritor plus",
+        "name": "pritor",
         "unit": 80.0
       },
       {
@@ -6940,7 +6940,7 @@
       },
       {
         "dose": null,
-        "name": "sutril neo",
+        "name": "sutril",
         "unit": 10.0
       }
     ],
@@ -7088,7 +7088,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 8.0
       },
       {
@@ -7156,7 +7156,7 @@
       },
       {
         "dose": null,
-        "name": "eferalgan",
+        "name": "efferelgan",
         "unit": null
       },
       {
@@ -7194,7 +7194,7 @@
       },
       {
         "dose": null,
-        "name": "pazital",
+        "name": "pazitel",
         "unit": 37.5
       },
       {
@@ -7253,7 +7253,7 @@
           "time": 168,
           "unit": 1.0
         },
-        "name": "cymbalta",
+        "name": "zimbalta",
         "unit": null
       },
       {
@@ -7308,7 +7308,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "trankimacin",
+        "name": "trankimazin",
         "unit": null
       },
       {
@@ -7367,7 +7367,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": 600.0
       },
       {
@@ -7502,7 +7502,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "desnon",
+        "name": "dexnon",
         "unit": null
       }
     ],
@@ -7791,7 +7791,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "cozaar plus",
+        "name": "cozaar",
         "unit": null
       },
       {
@@ -7806,7 +7806,7 @@
       },
       {
         "dose": null,
-        "name": "acetilsisteina",
+        "name": "acetilcisteina",
         "unit": 200.0
       }
     ],
@@ -7844,7 +7844,7 @@
       },
       {
         "dose": null,
-        "name": "tromalit",
+        "name": "tromalyt",
         "unit": 300.0
       },
       {
@@ -8014,7 +8014,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "omnis ocas",
+        "name": "omnic ocas",
         "unit": 0.4
       },
       {
@@ -8257,7 +8257,7 @@
       },
       {
         "dose": null,
-        "name": "arcoxic",
+        "name": "arcoxia",
         "unit": 60.0
       },
       {
@@ -8277,7 +8277,7 @@
       },
       {
         "dose": null,
-        "name": "osvical d",
+        "name": "osvical",
         "unit": null
       }
     ],
@@ -8325,7 +8325,7 @@
       },
       {
         "dose": null,
-        "name": "parlet",
+        "name": "pariet",
         "unit": null
       },
       {
@@ -8494,7 +8494,7 @@
       },
       {
         "dose": null,
-        "name": "meloxicam",
+        "name": "meloxican",
         "unit": 15.0
       },
       {
@@ -8537,7 +8537,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -8610,7 +8610,7 @@
       },
       {
         "dose": null,
-        "name": "detrusitol neo",
+        "name": "detrusitol",
         "unit": 4.0
       },
       {
@@ -9120,7 +9120,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "pritor plus",
+        "name": "pritor",
         "unit": null
       }
     ],
@@ -9201,7 +9201,7 @@
       },
       {
         "dose": null,
-        "name": "uniked",
+        "name": "uniket",
         "unit": 50.0
       },
       {
@@ -9335,7 +9335,7 @@
       },
       {
         "dose": null,
-        "name": "zarazor",
+        "name": "zarator",
         "unit": null
       },
       {
@@ -9565,7 +9565,7 @@
       },
       {
         "dose": null,
-        "name": "naprosym",
+        "name": "naproxyn",
         "unit": null
       },
       {
@@ -9598,7 +9598,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "vetolin",
+        "name": "ventolin",
         "unit": null
       },
       {
@@ -9651,7 +9651,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "karvecide",
+        "name": "karvezide",
         "unit": null
       },
       {
@@ -9776,7 +9776,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -9791,7 +9791,7 @@
       },
       {
         "dose": null,
-        "name": "votaren",
+        "name": "voltaren",
         "unit": null
       },
       {
@@ -9862,7 +9862,7 @@
       },
       {
         "dose": null,
-        "name": "omnic orcas",
+        "name": "omnic ocas",
         "unit": 0.4
       },
       {
@@ -10017,7 +10017,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "optovite b",
+        "name": "optovite",
         "unit": null
       },
       {
@@ -10104,7 +10104,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "preteras",
+        "name": "preterax",
         "unit": null
       },
       {
@@ -10253,7 +10253,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -10592,7 +10592,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "augmentine plus",
+        "name": "augmentine",
         "unit": null
       },
       {
@@ -10680,7 +10680,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "eferalgan",
+        "name": "efferelgan",
         "unit": 1.0
       },
       {
@@ -10735,7 +10735,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "proscal",
+        "name": "proscar",
         "unit": null
       },
       {
@@ -10764,7 +10764,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "termalgil",
+        "name": "termalgin",
         "unit": null
       }
     ],
@@ -10841,7 +10841,7 @@
       },
       {
         "dose": null,
-        "name": "flomil forte",
+        "name": "flumil forte",
         "unit": 600.0
       }
     ],
@@ -10874,7 +10874,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -10918,7 +10918,7 @@
       },
       {
         "dose": null,
-        "name": "enconcor cor",
+        "name": "encorcor cor",
         "unit": null
       },
       {
@@ -10977,7 +10977,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "remiten",
+        "name": "renitec",
         "unit": null
       },
       {
@@ -10993,7 +10993,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "nuglosina",
+        "name": "nuclosina",
         "unit": null
       },
       {
@@ -11087,7 +11087,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "alopurinal",
+        "name": "alopurinol",
         "unit": null
       },
       {
@@ -11662,7 +11662,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "almeride",
+        "name": "almerine",
         "unit": null
       },
       {
@@ -11682,12 +11682,12 @@
       },
       {
         "dose": null,
-        "name": "natecol d",
+        "name": "natecal d",
         "unit": null
       },
       {
         "dose": null,
-        "name": "panton",
+        "name": "pantok",
         "unit": null
       },
       {
@@ -11844,7 +11844,7 @@
       },
       {
         "dose": null,
-        "name": "meloxicam",
+        "name": "meloxican",
         "unit": null
       },
       {
@@ -12037,7 +12037,7 @@
       },
       {
         "dose": null,
-        "name": "tertensit retard",
+        "name": "tertensif retard",
         "unit": null
       },
       {
@@ -12093,7 +12093,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "enconcor",
+        "name": "emconcor",
         "unit": 5.0
       },
       {
@@ -12521,7 +12521,7 @@
       },
       {
         "dose": null,
-        "name": "fortasex",
+        "name": "fortasec",
         "unit": null
       }
     ],
@@ -12979,7 +12979,7 @@
       },
       {
         "dose": null,
-        "name": "ternormin",
+        "name": "tenormin",
         "unit": 50.0
       },
       {
@@ -13085,7 +13085,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       }
     ],
@@ -13214,7 +13214,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "vanral retard",
+        "name": "vandral retard",
         "unit": 75.0
       },
       {
@@ -13753,7 +13753,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "aspirines",
+        "name": "aspirine",
         "unit": null
       },
       {
@@ -13791,7 +13791,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "ritmonol",
+        "name": "rytmonorm",
         "unit": null
       },
       {
@@ -13900,7 +13900,7 @@
       },
       {
         "dose": null,
-        "name": "alprazolan",
+        "name": "alprazolam",
         "unit": null
       }
     ],
@@ -14013,7 +14013,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "cesplon plus",
+        "name": "cesplon",
         "unit": null
       },
       {
@@ -14357,7 +14357,7 @@
       },
       {
         "dose": null,
-        "name": "hespercobin",
+        "name": "hespercorbin",
         "unit": null
       }
     ],
@@ -14573,7 +14573,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "hipoartel plus",
+        "name": "hipoartel",
         "unit": null
       },
       {
@@ -14693,7 +14693,7 @@
       },
       {
         "dose": null,
-        "name": "urolosina",
+        "name": "urolosin",
         "unit": null
       },
       {
@@ -14882,7 +14882,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "astudar",
+        "name": "astudal",
         "unit": 5.0
       },
       {
@@ -15157,7 +15157,7 @@
       },
       {
         "dose": null,
-        "name": "opiruma",
+        "name": "optruma",
         "unit": 60.0
       },
       {
@@ -15200,7 +15200,7 @@
       },
       {
         "dose": null,
-        "name": "hipoartel plus",
+        "name": "hipoartel",
         "unit": null
       },
       {
@@ -15296,7 +15296,7 @@
       },
       {
         "dose": null,
-        "name": "renytec",
+        "name": "renitec",
         "unit": null
       },
       {
@@ -15481,7 +15481,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "trombalit",
+        "name": "tromalyt",
         "unit": null
       },
       {
@@ -15496,7 +15496,7 @@
       },
       {
         "dose": null,
-        "name": "trombalit",
+        "name": "tromalyt",
         "unit": null
       },
       {
@@ -15506,7 +15506,7 @@
       },
       {
         "dose": null,
-        "name": "liposcle",
+        "name": "liposcler",
         "unit": null
       },
       {
@@ -15624,7 +15624,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "natecal",
+        "name": "natecal d",
         "unit": null
       },
       {
@@ -16324,7 +16324,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -16464,7 +16464,7 @@
       },
       {
         "dose": null,
-        "name": "tebasmin",
+        "name": "terbasmin",
         "unit": null
       }
     ],
@@ -16874,7 +16874,7 @@
       },
       {
         "dose": null,
-        "name": "ritmonorm",
+        "name": "rytmonorm",
         "unit": 150.0
       }
     ],
@@ -17360,7 +17360,7 @@
       },
       {
         "dose": null,
-        "name": "norva",
+        "name": "norvas",
         "unit": 5.0
       },
       {
@@ -17418,7 +17418,7 @@
       },
       {
         "dose": null,
-        "name": "natecal",
+        "name": "natecal d",
         "unit": null
       }
     ],
@@ -17970,7 +17970,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       }
     ],
@@ -18201,7 +18201,7 @@
       },
       {
         "dose": null,
-        "name": "neurotin",
+        "name": "neurontin",
         "unit": null
       },
       {
@@ -18221,7 +18221,7 @@
       },
       {
         "dose": null,
-        "name": "plavis",
+        "name": "plavix",
         "unit": null
       },
       {
@@ -18274,7 +18274,7 @@
       },
       {
         "dose": null,
-        "name": "amlodiino",
+        "name": "amlodipino",
         "unit": 5.0
       },
       {
@@ -18414,7 +18414,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "acetilo",
+        "name": "acetil",
         "unit": 100.0
       }
     ],
@@ -18560,12 +18560,12 @@
       },
       {
         "dose": null,
-        "name": "potasio d",
+        "name": "potasio",
         "unit": null
       },
       {
         "dose": null,
-        "name": "citram",
+        "name": "zytram",
         "unit": 150.0
       }
     ],
@@ -18794,7 +18794,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "kalpress plus",
+        "name": "kalpress",
         "unit": 80.0
       },
       {
@@ -18854,7 +18854,7 @@
       },
       {
         "dose": null,
-        "name": "citalopran",
+        "name": "citalopram",
         "unit": 10.0
       },
       {
@@ -18935,7 +18935,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "prednisone rathiopharm",
+        "name": "prednisone ratiopharm",
         "unit": 20.0
       },
       {
@@ -19217,7 +19217,7 @@
       },
       {
         "dose": null,
-        "name": "flebostasil",
+        "name": "flebostasin",
         "unit": null
       },
       {
@@ -19379,7 +19379,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -19596,7 +19596,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "micardis plus",
+        "name": "micardis",
         "unit": 80.0
       },
       {
@@ -19749,7 +19749,7 @@
       },
       {
         "dose": null,
-        "name": "narixen plus",
+        "name": "navixen",
         "unit": null
       }
     ],
@@ -19782,7 +19782,7 @@
       },
       {
         "dose": null,
-        "name": "karmezide",
+        "name": "karvezide",
         "unit": null
       },
       {
@@ -19797,7 +19797,7 @@
       },
       {
         "dose": null,
-        "name": "acost",
+        "name": "azopt",
         "unit": null
       },
       {
@@ -20021,7 +20021,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "acetinsil plus",
+        "name": "acetinsil",
         "unit": null
       },
       {
@@ -20068,7 +20068,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "deflox",
+        "name": "daflon",
         "unit": 5.0
       },
       {
@@ -20211,7 +20211,7 @@
       },
       {
         "dose": null,
-        "name": "micardis plus",
+        "name": "micardis",
         "unit": null
       },
       {
@@ -20264,12 +20264,12 @@
       },
       {
         "dose": null,
-        "name": "dmben",
+        "name": "dnben",
         "unit": null
       },
       {
         "dose": null,
-        "name": "aldactone",
+        "name": "aldactone a",
         "unit": null
       },
       {
@@ -20315,7 +20315,7 @@
           "time": 24,
           "unit": 3.0
         },
-        "name": "sinemet plus",
+        "name": "sinemet",
         "unit": null
       },
       {
@@ -20443,7 +20443,7 @@
       },
       {
         "dose": null,
-        "name": "aldactone",
+        "name": "aldactone a",
         "unit": 25.0
       },
       {
@@ -20491,7 +20491,7 @@
       },
       {
         "dose": null,
-        "name": "igrotona",
+        "name": "higrotona",
         "unit": null
       },
       {
@@ -20690,7 +20690,7 @@
       },
       {
         "dose": null,
-        "name": "salatan",
+        "name": "xalatan",
         "unit": null
       },
       {
@@ -20912,7 +20912,7 @@
       },
       {
         "dose": null,
-        "name": "detrositol neo",
+        "name": "detrusitol",
         "unit": 4.0
       },
       {
@@ -20922,7 +20922,7 @@
       },
       {
         "dose": null,
-        "name": "xaleta",
+        "name": "xalatan",
         "unit": null
       }
     ],
@@ -21327,7 +21327,7 @@
       },
       {
         "dose": null,
-        "name": "valss",
+        "name": "vals",
         "unit": 160.0
       },
       {
@@ -21352,7 +21352,7 @@
       },
       {
         "dose": null,
-        "name": "acido alendronico s",
+        "name": "acido alendronico",
         "unit": null
       }
     ],
@@ -21390,7 +21390,7 @@
       },
       {
         "dose": null,
-        "name": "zocoor",
+        "name": "zocor",
         "unit": 10.0
       },
       {
@@ -21400,7 +21400,7 @@
       },
       {
         "dose": null,
-        "name": "opirem",
+        "name": "opiren",
         "unit": null
       },
       {
@@ -21441,7 +21441,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "prednisone lareq",
+        "name": "prednisone larez",
         "unit": 20.0
       },
       {
@@ -21538,7 +21538,7 @@
       },
       {
         "dose": null,
-        "name": "karvecide",
+        "name": "karvezide",
         "unit": null
       },
       {
@@ -21644,12 +21644,12 @@
       },
       {
         "dose": null,
-        "name": "tevetens plus",
+        "name": "tevetens",
         "unit": null
       },
       {
         "dose": null,
-        "name": "avidort",
+        "name": "avidart",
         "unit": 0.5
       },
       {
@@ -21768,7 +21768,7 @@
       },
       {
         "dose": null,
-        "name": "acocil",
+        "name": "acovil",
         "unit": 10.0
       },
       {
@@ -22092,7 +22092,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "notropil",
+        "name": "nootropil",
         "unit": 1200.0
       },
       {
@@ -22437,7 +22437,7 @@
       },
       {
         "dose": null,
-        "name": "singular",
+        "name": "singulair",
         "unit": null
       },
       {
@@ -22495,7 +22495,7 @@
       },
       {
         "dose": null,
-        "name": "luvigan",
+        "name": "lumigan",
         "unit": null
       },
       {
@@ -22505,7 +22505,7 @@
       },
       {
         "dose": null,
-        "name": "arimides",
+        "name": "arimidex",
         "unit": null
       },
       {
@@ -22515,7 +22515,7 @@
       },
       {
         "dose": null,
-        "name": "essertia",
+        "name": "esertia",
         "unit": null
       }
     ],
@@ -22539,7 +22539,7 @@
       },
       {
         "dose": null,
-        "name": "enconcor",
+        "name": "emconcor",
         "unit": 5.0
       },
       {
@@ -22650,7 +22650,7 @@
       },
       {
         "dose": null,
-        "name": "lorazepan",
+        "name": "lorazepam",
         "unit": 1.0
       }
     ],
@@ -22716,7 +22716,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -22867,12 +22867,12 @@
       },
       {
         "dose": null,
-        "name": "alprazolan",
+        "name": "alprazolam",
         "unit": 0.25
       },
       {
         "dose": null,
-        "name": "eferalgan",
+        "name": "efferelgan",
         "unit": 1.0
       },
       {
@@ -22968,7 +22968,7 @@
       },
       {
         "dose": null,
-        "name": "roinol",
+        "name": "rohipnol",
         "unit": null
       },
       {
@@ -22978,7 +22978,7 @@
       },
       {
         "dose": null,
-        "name": "diclofenato",
+        "name": "diclofenaco",
         "unit": null
       },
       {
@@ -23287,7 +23287,7 @@
       },
       {
         "dose": null,
-        "name": "manidor",
+        "name": "manidon",
         "unit": null
       },
       {
@@ -23302,12 +23302,12 @@
       },
       {
         "dose": null,
-        "name": "simtrom",
+        "name": "sintron",
         "unit": null
       },
       {
         "dose": null,
-        "name": "zyloryc",
+        "name": "zyloric",
         "unit": null
       },
       {
@@ -23604,12 +23604,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "dmben",
+        "name": "dnben",
         "unit": null
       },
       {
         "dose": null,
-        "name": "novonor",
+        "name": "novonorm",
         "unit": null
       },
       {
@@ -23619,7 +23619,7 @@
       },
       {
         "dose": null,
-        "name": "coropress",
+        "name": "coropres",
         "unit": null
       },
       {
@@ -23929,12 +23929,12 @@
       },
       {
         "dose": null,
-        "name": "hipoartel plus",
+        "name": "hipoartel",
         "unit": null
       },
       {
         "dose": null,
-        "name": "condro san",
+        "name": "condrosan",
         "unit": 400.0
       },
       {
@@ -24064,7 +24064,7 @@
       },
       {
         "dose": null,
-        "name": "sumol",
+        "name": "sumial",
         "unit": null
       },
       {
@@ -24213,7 +24213,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "pranin",
+        "name": "prandin",
         "unit": null
       },
       {
@@ -24375,7 +24375,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -24394,7 +24394,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
@@ -24404,7 +24404,7 @@
       },
       {
         "dose": null,
-        "name": "nootrupil",
+        "name": "nootropil",
         "unit": 800.0
       },
       {
@@ -24572,7 +24572,7 @@
       },
       {
         "dose": null,
-        "name": "dmiron",
+        "name": "dmicron",
         "unit": null
       }
     ],
@@ -24930,7 +24930,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       }
     ],
@@ -24968,7 +24968,7 @@
       },
       {
         "dose": null,
-        "name": "astudad",
+        "name": "astudal",
         "unit": null
       },
       {
@@ -25001,12 +25001,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "plavi",
+        "name": "plavix",
         "unit": null
       },
       {
         "dose": null,
-        "name": "zocor d",
+        "name": "zocor",
         "unit": 20.0
       },
       {
@@ -25720,7 +25720,7 @@
       },
       {
         "dose": null,
-        "name": "enelapril",
+        "name": "enalapril",
         "unit": 10.0
       },
       {
@@ -25801,7 +25801,7 @@
       },
       {
         "dose": null,
-        "name": "novinorm",
+        "name": "novonorm",
         "unit": null
       },
       {
@@ -25816,7 +25816,7 @@
       },
       {
         "dose": null,
-        "name": "tepazepan",
+        "name": "tezazepam",
         "unit": null
       },
       {
@@ -25836,7 +25836,7 @@
       },
       {
         "dose": null,
-        "name": "cylorit",
+        "name": "zyloric",
         "unit": null
       }
     ],
@@ -25867,7 +25867,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -25949,12 +25949,12 @@
       },
       {
         "dose": null,
-        "name": "sinemet plus",
+        "name": "sinemet",
         "unit": null
       },
       {
         "dose": null,
-        "name": "ditraneurine",
+        "name": "distraneurine",
         "unit": null
       },
       {
@@ -26047,7 +26047,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -26080,7 +26080,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "clamoxyl",
+        "name": "clamoxil",
         "unit": null
       },
       {
@@ -26148,12 +26148,12 @@
       },
       {
         "dose": null,
-        "name": "permison",
+        "name": "permixon",
         "unit": null
       },
       {
         "dose": null,
-        "name": "cetirizine",
+        "name": "cetirizina",
         "unit": null
       }
     ],
@@ -26457,7 +26457,7 @@
       },
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": 4.0
       },
       {
@@ -26477,7 +26477,7 @@
       },
       {
         "dose": null,
-        "name": "ideo",
+        "name": "ideos",
         "unit": null
       },
       {
@@ -26573,7 +26573,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
@@ -26881,7 +26881,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "triptizol",
+        "name": "tryptizol",
         "unit": null
       },
       {
@@ -27012,7 +27012,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "dnven",
+        "name": "dnben",
         "unit": null
       }
     ],
@@ -27045,7 +27045,7 @@
       },
       {
         "dose": null,
-        "name": "natecalde",
+        "name": "natecal d",
         "unit": null
       },
       {
@@ -27081,7 +27081,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -27102,7 +27102,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "micardis plus",
+        "name": "micardis",
         "unit": null
       }
     ],
@@ -27206,7 +27206,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "prednisona",
+        "name": "prednisone",
         "unit": 5.0
       },
       {
@@ -27320,12 +27320,12 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
         "dose": null,
-        "name": "aldactorea",
+        "name": "aldactone a",
         "unit": null
       },
       {
@@ -27516,7 +27516,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "mastical d",
+        "name": "mastical",
         "unit": null
       },
       {
@@ -27675,7 +27675,7 @@
       },
       {
         "dose": null,
-        "name": "cosopot",
+        "name": "cosopt",
         "unit": 5.0
       },
       {
@@ -27824,7 +27824,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
@@ -27857,7 +27857,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "cefuroxina",
+        "name": "cefluroxina",
         "unit": null
       },
       {
@@ -28020,7 +28020,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "proulco",
+        "name": "provico",
         "unit": 15.0
       }
     ],
@@ -28281,7 +28281,7 @@
       },
       {
         "dose": null,
-        "name": "pitor plus",
+        "name": "pitur",
         "unit": null
       },
       {
@@ -28362,7 +28362,7 @@
       },
       {
         "dose": null,
-        "name": "karnea",
+        "name": "karvea",
         "unit": null
       },
       {
@@ -28472,7 +28472,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "movonolm",
+        "name": "novonorm",
         "unit": 1.0
       }
     ],
@@ -28548,7 +28548,7 @@
       },
       {
         "dose": null,
-        "name": "cardiran",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -28606,7 +28606,7 @@
       },
       {
         "dose": null,
-        "name": "cepranodal",
+        "name": "ceprandal",
         "unit": null
       }
     ],
@@ -29088,7 +29088,7 @@
           "time": 24,
           "unit": 3.0
         },
-        "name": "eferalgan",
+        "name": "efferelgan",
         "unit": null
       },
       {
@@ -29145,7 +29145,7 @@
       },
       {
         "dose": null,
-        "name": "aldactone",
+        "name": "aldactone a",
         "unit": null
       },
       {
@@ -29537,7 +29537,7 @@
       },
       {
         "dose": null,
-        "name": "prova",
+        "name": "prava",
         "unit": 20.0
       }
     ],
@@ -29623,7 +29623,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": 600.0
       }
     ],
@@ -29726,7 +29726,7 @@
       },
       {
         "dose": null,
-        "name": "igrotona",
+        "name": "higrotona",
         "unit": null
       },
       {
@@ -29762,7 +29762,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "enalpril",
+        "name": "enalapril",
         "unit": null
       }
     ],
@@ -29810,7 +29810,7 @@
       },
       {
         "dose": null,
-        "name": "calciumsandoz",
+        "name": "calcium sandoz",
         "unit": null
       },
       {
@@ -29839,7 +29839,7 @@
       },
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": null
       },
       {
@@ -29897,7 +29897,7 @@
       },
       {
         "dose": null,
-        "name": "tevelens plus",
+        "name": "tevetens",
         "unit": null
       },
       {
@@ -30068,7 +30068,7 @@
       },
       {
         "dose": null,
-        "name": "sinemet plus",
+        "name": "sinemet",
         "unit": null
       }
     ],
@@ -30200,7 +30200,7 @@
           "time": 24,
           "unit": 3.0
         },
-        "name": "ideoz",
+        "name": "ideos",
         "unit": null
       }
     ],
@@ -30304,7 +30304,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "omeprazol",
+        "name": "omeprazzol",
         "unit": 20.0
       },
       {
@@ -30460,7 +30460,7 @@
       },
       {
         "dose": null,
-        "name": "novas",
+        "name": "norvas",
         "unit": null
       }
     ],
@@ -30573,7 +30573,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "sumal",
+        "name": "sumial",
         "unit": null
       },
       {
@@ -30646,7 +30646,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -30944,7 +30944,7 @@
       },
       {
         "dose": null,
-        "name": "axiaga",
+        "name": "axiago",
         "unit": 40.0
       },
       {
@@ -31044,7 +31044,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": 4.0
       },
       {
@@ -31100,7 +31100,7 @@
       },
       {
         "dose": null,
-        "name": "estonil",
+        "name": "estomil",
         "unit": 15.0
       }
     ],
@@ -31156,7 +31156,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "carburan",
+        "name": "carduran",
         "unit": null
       }
     ],
@@ -31462,7 +31462,7 @@
       },
       {
         "dose": null,
-        "name": "hidroxyl",
+        "name": "hidroxil",
         "unit": null
       },
       {
@@ -31695,7 +31695,7 @@
       },
       {
         "dose": null,
-        "name": "effralgan",
+        "name": "efferelgan",
         "unit": null
       },
       {
@@ -31958,7 +31958,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -32121,7 +32121,7 @@
       },
       {
         "dose": null,
-        "name": "sacalip supra",
+        "name": "secalip supra",
         "unit": 160.0
       },
       {
@@ -32156,7 +32156,7 @@
       },
       {
         "dose": null,
-        "name": "ibercal d",
+        "name": "ibercald",
         "unit": null
       }
     ],
@@ -32227,7 +32227,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -32237,12 +32237,12 @@
       },
       {
         "dose": null,
-        "name": "karvecide",
+        "name": "karvezide",
         "unit": 300.0
       },
       {
         "dose": null,
-        "name": "benestan retard",
+        "name": "benestran retard",
         "unit": null
       },
       {
@@ -32252,7 +32252,7 @@
       },
       {
         "dose": null,
-        "name": "dagalgan",
+        "name": "dafalgan",
         "unit": null
       },
       {
@@ -32323,7 +32323,7 @@
       },
       {
         "dose": null,
-        "name": "ternormil",
+        "name": "tenormin",
         "unit": 50.0
       },
       {
@@ -32395,7 +32395,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
@@ -32453,7 +32453,7 @@
       },
       {
         "dose": null,
-        "name": "naprosyn",
+        "name": "naproxyn",
         "unit": null
       },
       {
@@ -32468,7 +32468,7 @@
       },
       {
         "dose": null,
-        "name": "flebostatin",
+        "name": "flebostasin",
         "unit": null
       },
       {
@@ -32511,7 +32511,7 @@
       },
       {
         "dose": null,
-        "name": "regulaten plus",
+        "name": "regulaten",
         "unit": null
       },
       {
@@ -32695,7 +32695,7 @@
       },
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": 4.0
       },
       {
@@ -32705,7 +32705,7 @@
       },
       {
         "dose": null,
-        "name": "zocoor",
+        "name": "zocor",
         "unit": 20.0
       },
       {
@@ -32715,7 +32715,7 @@
       },
       {
         "dose": null,
-        "name": "ideo",
+        "name": "ideos",
         "unit": null
       },
       {
@@ -32767,7 +32767,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "proscar msd",
+        "name": "proscar",
         "unit": null
       },
       {
@@ -33146,7 +33146,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": null
       },
       {
@@ -33171,7 +33171,7 @@
       },
       {
         "dose": null,
-        "name": "sutril ht",
+        "name": "sutril",
         "unit": 2.5
       },
       {
@@ -33181,7 +33181,7 @@
       },
       {
         "dose": null,
-        "name": "bloquium",
+        "name": "blokium",
         "unit": null
       },
       {
@@ -33262,7 +33262,7 @@
       },
       {
         "dose": null,
-        "name": "uniked retard",
+        "name": "uniket retard",
         "unit": null
       },
       {
@@ -33476,7 +33476,7 @@
       },
       {
         "dose": null,
-        "name": "lorazepan",
+        "name": "lorazepam",
         "unit": null
       },
       {
@@ -33975,7 +33975,7 @@
       },
       {
         "dose": null,
-        "name": "lorazepan",
+        "name": "lorazepam",
         "unit": null
       },
       {
@@ -34062,7 +34062,7 @@
       },
       {
         "dose": null,
-        "name": "levotroid",
+        "name": "levothroid",
         "unit": 100.0
       },
       {
@@ -34092,7 +34092,7 @@
       },
       {
         "dose": null,
-        "name": "reser",
+        "name": "rexer",
         "unit": 30.0
       },
       {
@@ -34241,7 +34241,7 @@
       },
       {
         "dose": null,
-        "name": "sicil",
+        "name": "xicil",
         "unit": null
       },
       {
@@ -34282,7 +34282,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "nadixen",
+        "name": "navixen",
         "unit": 600.0
       },
       {
@@ -34471,7 +34471,7 @@
       },
       {
         "dose": null,
-        "name": "prova",
+        "name": "prava",
         "unit": 20.0
       }
     ],
@@ -34524,7 +34524,7 @@
       },
       {
         "dose": null,
-        "name": "zolpiden",
+        "name": "zolpidem",
         "unit": 10.0
       },
       {
@@ -34562,7 +34562,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "acetensil",
+        "name": "acetinsil",
         "unit": 20.0
       },
       {
@@ -34686,7 +34686,7 @@
       },
       {
         "dose": null,
-        "name": "provigil bayer",
+        "name": "provigilbayer",
         "unit": null
       },
       {
@@ -34749,12 +34749,12 @@
       },
       {
         "dose": null,
-        "name": "alopurinil",
+        "name": "alopurinol",
         "unit": null
       },
       {
         "dose": null,
-        "name": "galaxaar",
+        "name": "galaxdar",
         "unit": null
       },
       {
@@ -34812,7 +34812,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophenl",
+        "name": "ibuprohen",
         "unit": 20.0
       },
       {
@@ -34850,7 +34850,7 @@
       },
       {
         "dose": null,
-        "name": "provigil bayer",
+        "name": "provigilbayer",
         "unit": null
       },
       {
@@ -34991,7 +34991,7 @@
       },
       {
         "dose": null,
-        "name": "higrotone",
+        "name": "higrotona",
         "unit": 50.0
       },
       {
@@ -35167,7 +35167,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "cesplon plus",
+        "name": "cesplon",
         "unit": null
       }
     ],
@@ -35411,12 +35411,12 @@
       },
       {
         "dose": null,
-        "name": "besitaran",
+        "name": "besitran",
         "unit": 50.0
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -35631,7 +35631,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       },
       {
@@ -35647,7 +35647,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "prinivil plus",
+        "name": "prinivil",
         "unit": null
       }
     ],
@@ -35893,7 +35893,7 @@
       },
       {
         "dose": null,
-        "name": "dimisor",
+        "name": "dinisor",
         "unit": null
       },
       {
@@ -36108,7 +36108,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "duphatac",
+        "name": "duphalac",
         "unit": null
       },
       {
@@ -36176,7 +36176,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "travatan",
+        "name": "travantan",
         "unit": null
       },
       {
@@ -36372,7 +36372,7 @@
           "time": 24,
           "unit": 3.0
         },
-        "name": "cinmet plus",
+        "name": "cinmet",
         "unit": 1.5
       },
       {
@@ -36404,7 +36404,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "cetilicina",
+        "name": "cetirizina",
         "unit": 10.0
       },
       {
@@ -36646,7 +36646,7 @@
       },
       {
         "dose": null,
-        "name": "tardy feron",
+        "name": "tardyferon",
         "unit": null
       },
       {
@@ -37015,7 +37015,7 @@
       },
       {
         "dose": null,
-        "name": "synbicort",
+        "name": "symbicort",
         "unit": null
       }
     ],
@@ -37097,7 +37097,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
@@ -37254,7 +37254,7 @@
       },
       {
         "dose": null,
-        "name": "zytram bid",
+        "name": "zytram brid",
         "unit": 75.0
       },
       {
@@ -37303,7 +37303,7 @@
       },
       {
         "dose": null,
-        "name": "novalis",
+        "name": "movalis",
         "unit": 15.0
       },
       {
@@ -37346,7 +37346,7 @@
       },
       {
         "dose": null,
-        "name": "coropress",
+        "name": "coropres",
         "unit": null
       },
       {
@@ -37462,7 +37462,7 @@
       },
       {
         "dose": null,
-        "name": "condro san",
+        "name": "condrosan",
         "unit": null
       },
       {
@@ -37611,12 +37611,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       },
       {
         "dose": null,
-        "name": "enantyun",
+        "name": "enantyum",
         "unit": null
       },
       {
@@ -37659,7 +37659,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "neotensil",
+        "name": "neotensin",
         "unit": null
       },
       {
@@ -37730,7 +37730,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "barnix",
+        "name": "barnnix",
         "unit": 10.0
       },
       {
@@ -37804,7 +37804,7 @@
       },
       {
         "dose": null,
-        "name": "priddal",
+        "name": "prisdal",
         "unit": null
       },
       {
@@ -37842,12 +37842,12 @@
       },
       {
         "dose": null,
-        "name": "codran forte",
+        "name": "codvan forte",
         "unit": null
       },
       {
         "dose": null,
-        "name": "norvay",
+        "name": "norvas",
         "unit": null
       },
       {
@@ -38058,7 +38058,7 @@
       },
       {
         "dose": null,
-        "name": "coaprodel",
+        "name": "coaprovel",
         "unit": null
       },
       {
@@ -38111,7 +38111,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "dnbem",
+        "name": "dnben",
         "unit": 850.0
       },
       {
@@ -38577,7 +38577,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "navixen plus",
+        "name": "navixen",
         "unit": null
       },
       {
@@ -38703,12 +38703,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "simenet retard",
+        "name": "sinemet retard",
         "unit": null
       },
       {
         "dose": null,
-        "name": "anaeramil",
+        "name": "anafranil",
         "unit": null
       },
       {
@@ -38874,7 +38874,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "pritor plus",
+        "name": "pritor",
         "unit": null
       },
       {
@@ -39127,7 +39127,7 @@
       },
       {
         "dose": null,
-        "name": "loracepan",
+        "name": "lorazepam",
         "unit": null
       },
       {
@@ -39291,7 +39291,7 @@
       },
       {
         "dose": null,
-        "name": "detrusitol neo",
+        "name": "detrusitol",
         "unit": 4.0
       },
       {
@@ -39404,7 +39404,7 @@
       },
       {
         "dose": null,
-        "name": "zytran",
+        "name": "zytram",
         "unit": null
       },
       {
@@ -39723,7 +39723,7 @@
       },
       {
         "dose": null,
-        "name": "euglocon",
+        "name": "euglucon",
         "unit": null
       }
     ],
@@ -39814,7 +39814,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "simtron",
+        "name": "sintron",
         "unit": null
       },
       {
@@ -39857,7 +39857,7 @@
       },
       {
         "dose": null,
-        "name": "sutril hta",
+        "name": "sutril",
         "unit": 2.5
       }
     ],
@@ -40036,12 +40036,12 @@
       },
       {
         "dose": null,
-        "name": "mastical d",
+        "name": "mastical",
         "unit": null
       },
       {
         "dose": null,
-        "name": "atacand plus",
+        "name": "atacand",
         "unit": null
       },
       {
@@ -40104,12 +40104,12 @@
       },
       {
         "dose": null,
-        "name": "ibuprophen",
+        "name": "ibuprohen",
         "unit": null
       },
       {
         "dose": null,
-        "name": "elgam",
+        "name": "elgan",
         "unit": null
       }
     ],
@@ -40181,7 +40181,7 @@
       },
       {
         "dose": null,
-        "name": "lisinoprils",
+        "name": "lisinopril",
         "unit": null
       },
       {
@@ -40219,12 +40219,12 @@
     "drugs": [
       {
         "dose": null,
-        "name": "levotroy",
+        "name": "levothroid",
         "unit": null
       },
       {
         "dose": null,
-        "name": "ternormil",
+        "name": "tenormin",
         "unit": null
       },
       {
@@ -40282,7 +40282,7 @@
       },
       {
         "dose": null,
-        "name": "norvax",
+        "name": "norvas",
         "unit": null
       },
       {
@@ -40568,7 +40568,7 @@
       },
       {
         "dose": null,
-        "name": "tevelens plus",
+        "name": "tevetens",
         "unit": null
       }
     ],
@@ -40624,7 +40624,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "enantium",
+        "name": "enantyum",
         "unit": 12.5
       },
       {
@@ -40758,7 +40758,7 @@
       },
       {
         "dose": null,
-        "name": "valiun",
+        "name": "valium",
         "unit": null
       },
       {
@@ -40813,7 +40813,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "prednisona",
+        "name": "prednisone",
         "unit": null
       },
       {
@@ -40889,7 +40889,7 @@
       },
       {
         "dose": null,
-        "name": "evistan",
+        "name": "evista",
         "unit": null
       },
       {
@@ -41014,7 +41014,7 @@
       },
       {
         "dose": null,
-        "name": "inocar plus",
+        "name": "inocar",
         "unit": null
       },
       {
@@ -41130,7 +41130,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "dmben",
+        "name": "dnben",
         "unit": null
       },
       {
@@ -41146,7 +41146,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "tromalit",
+        "name": "tromalyt",
         "unit": null
       }
     ],
@@ -41323,7 +41323,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "dmben",
+        "name": "dnben",
         "unit": 850.0
       },
       {
@@ -41412,7 +41412,7 @@
       },
       {
         "dose": null,
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": 4.0
       }
     ],
@@ -41436,7 +41436,7 @@
       },
       {
         "dose": null,
-        "name": "zocaar plus",
+        "name": "cozaar",
         "unit": null
       },
       {
@@ -41595,7 +41595,7 @@
           "time": 24,
           "unit": 0.5
         },
-        "name": "inacar",
+        "name": "inocar",
         "unit": null
       },
       {
@@ -41763,7 +41763,7 @@
       },
       {
         "dose": null,
-        "name": "serosat",
+        "name": "seroxat",
         "unit": null
       },
       {
@@ -42033,7 +42033,7 @@
       },
       {
         "dose": null,
-        "name": "ibuprophenl",
+        "name": "ibuprohen",
         "unit": 20.0
       }
     ],
@@ -42092,7 +42092,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "cozzar",
+        "name": "cozaar",
         "unit": null
       },
       {
@@ -42117,7 +42117,7 @@
       },
       {
         "dose": null,
-        "name": "tebetame",
+        "name": "tebetane",
         "unit": null
       }
     ],
@@ -42156,7 +42156,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "carduran neo",
+        "name": "carduran",
         "unit": null
       }
     ],
@@ -42618,7 +42618,7 @@
       },
       {
         "dose": null,
-        "name": "tranxiliun",
+        "name": "tranxilium",
         "unit": 50.0
       },
       {
@@ -42811,7 +42811,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "hipertent",
+        "name": "hipertene",
         "unit": 10.0
       },
       {
@@ -42904,7 +42904,7 @@
       },
       {
         "dose": null,
-        "name": "ranuver",
+        "name": "ranuber",
         "unit": null
       }
     ],
@@ -42952,7 +42952,7 @@
       },
       {
         "dose": null,
-        "name": "kalpress plus",
+        "name": "kalpress",
         "unit": null
       },
       {

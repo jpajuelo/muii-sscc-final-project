@@ -8,6 +8,8 @@ import csv
 import json
 import re
 
+from itertools import groupby
+
 # =======================================================================================
 # CONSTANTS
 # =======================================================================================
@@ -50,6 +52,9 @@ WORDS_TO_REMOVE = [
   'jarabe',
   'lagrimas',
   'masticable',
+  'msd',
+  'neo',
+  'plus',
   'parches',
   'polvo para inhalacion',
   'sobres',
@@ -253,12 +258,70 @@ def create_drug(name, unit, dose_unit, dose_time):
     'dose': None if None in dose_v else dict(zip(dose_k, dose_v))
   }
 
+def create_patterns(val):
+  result = []
+
+  for i in range(1, len(val)):
+    chars = list(val)
+
+    if chars[-1] in ['l', 'r']:
+      chars[-1] = '(l|r)'
+
+    chars = ['(i|y)' if c in ['y', 'i'] else c for c in chars]
+    chars = ['h?' if c in ['h'] else c for c in chars]
+    chars = ['(k|qu)' if c in ['k'] else c for c in chars]
+    chars = ['(c|z)' if c in ['z', 'c'] else c for c in chars]
+    chars = ['(x|s)' if c in ['x', 's'] else c for c in chars]
+    chars = ['(m|n)' if c in ['m', 'n'] else c for c in chars]
+    chars = ['(v|u)' if c in ['v', 'u'] else c for c in chars]
+    chars = ['(a|e)' if c in ['a', 'e'] else c for c in chars]
+    chars = [' ?' if c in [' '] else c for c in chars]
+
+    chars[i] = chars[i] + r'[a-z]?'
+
+    if i + 1 < len(chars):
+      del chars[i + 1]
+
+    result.append(re.compile(r'^' + ''.join(chars) + r'$'))
+
+  return result
+
 # =======================================================================================
 # MAIN
 # =======================================================================================
 
 patient = clean_csvfile('patient', clean_patient)
 patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
+
+drug_names = [d.get('name') for p_i, p_d in patient_drugs.items() for d in p_d]
+drug_names = [(k, len(list(g))) for k, g in groupby(sorted(drug_names))]
+
+result = []
+
+for d_n in drug_names:
+  n, c = d_n
+  names = [n]
+
+  for p in create_patterns(n):
+    for new_d_n in drug_names:
+      new_n, new_c = new_d_n
+      if p.search(new_n):
+        if new_c > c:
+          n = new_n
+          c = new_c
+        names.append(new_n)
+
+  names = list(set(names))
+
+  if len(names) > 1:
+    result.append(', '.join(sorted(names)))
+
+    for p_i, p_d in patient_drugs.items():
+      for d in p_d:
+        if d.get('name') in names:
+          d['name'] = n
+
+#print '\n'.join(sorted(set(result)))
 
 for p_id, p_drugs in patient_drugs.items():
   if p_id in patient:
@@ -267,3 +330,14 @@ for p_id, p_drugs in patient_drugs.items():
     })
 
 export_json(patient, 'patient')
+
+drug_cleaned = [d.get('name') for p_i, p_d in patient_drugs.items() for d in p_d]
+drug_cleaned = [(k, len(list(g))) for k, g in groupby(sorted(drug_cleaned))]
+
+drug_removed = [(k, v) for k, v in drug_cleaned if v == 1]
+
+with open('drug_cleaned.txt', 'w') as outfile:
+  print >> outfile, '\n'.join(sorted(set(['%s %s' % (k,v) for k, v in drug_cleaned])))
+
+with open('drug_removed.txt', 'w') as outfile:
+  print >> outfile, '\n'.join(sorted(set(['%s %s' % (k,v) for k, v in drug_removed])))
