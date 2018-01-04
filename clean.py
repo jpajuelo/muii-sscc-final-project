@@ -18,7 +18,7 @@ NAME_RE = r'[a-z][a-z0-9]*( [a-z][a-z0-9]*)*'
 
 DRUG_NAME_RE = r'(?P<name>%s)(,(?P<name_extra>%s))?' % ((NAME_RE,) * 2)
 DRUG_UNIT_RE = r'((?P<unit>%s)%s(/(%s)?%s)?)(,((?P<unit_extra>%s)%s(/(%s)?%s)?))?' % ((NUM_RE, UNIT_RE) * 4)
-DRUG_DOSE_RE = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time>(%s)?[a-z]))' % ((NUM_RE,) * 2)
+DRUG_DOSE_RE = r'(?P<dose>(?P<dose_unit>%s)u/(?P<dose_time_v>%s)(?P<dose_time_k>[a-z]))' % ((NUM_RE,) * 2)
 
 DRUG_PATTERN = re.compile(r'^%s( %s)?( %s)?$' % (DRUG_NAME_RE, DRUG_UNIT_RE, DRUG_DOSE_RE))
 
@@ -178,8 +178,8 @@ def clean_patient_drugs(patient_drugs):
 
     name = match.group('name')
     unit = match.group('unit')
-    dose_unit = parse_float(match.group('dose_unit'))
-    dose_time = match.group('dose_time')
+    dose_unit = match.group('dose_unit')
+    dose_time = (match.group('dose_time_k'), match.group('dose_time_v'))
 
     cleaned.append(create_drug(name, unit, dose_unit, dose_time))
 
@@ -195,19 +195,38 @@ def clean_patient_drugs(patient_drugs):
 
   return cleaned
 
+def parse_dose_time(dose_time):
+  if None in dose_time:
+    return None
+
+  k, v = dose_time
+
+  v = int(v)
+
+  if k == 'd':
+    return v * 24
+
+  if k == 's':
+    return v * 7 * 24
+
+  if k == 'm':
+    return v * 30 * 24
+
+  return v
+
 def create_drug(name, unit, dose_unit, dose_time):
+  dose_k = ['unit', 'time']
+  dose_v = [parse_float(dose_unit), parse_dose_time(dose_time)]
+
   return {
     'name': name,
     'unit': parse_float(unit),
-    'dose_unit': dose_unit,
-    'dose_time': dose_time
+    'dose': None if None in dose_v else dict(zip(dose_k, dose_v))
   }
 
 # =======================================================================================
 # MAIN
 # =======================================================================================
-
-result = []
 
 patient = clean_csvfile('patient', clean_patient)
 patient_drugs = clean_csvfile('patient_drugs', clean_patient_drugs)
