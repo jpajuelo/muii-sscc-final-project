@@ -288,7 +288,7 @@
       },
       {
         "dose": null,
-        "name": "dolo stop",
+        "name": "dolostop",
         "unit": null
       }
     ],
@@ -1263,7 +1263,7 @@
       },
       {
         "dose": null,
-        "name": "co renitec",
+        "name": "corenitec",
         "unit": null
       }
     ],
@@ -1520,7 +1520,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": 160.0
       },
       {
@@ -1855,7 +1855,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co vals forte",
+        "name": "covals forte",
         "unit": 160.0
       },
       {
@@ -2331,7 +2331,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "condro san",
+        "name": "condrosan",
         "unit": 400.0
       },
       {
@@ -3248,7 +3248,7 @@
       },
       {
         "dose": null,
-        "name": "foli doce",
+        "name": "folidoce",
         "unit": null
       }
     ],
@@ -4629,7 +4629,7 @@
       },
       {
         "dose": null,
-        "name": "sinemet retar",
+        "name": "sinemet retard",
         "unit": null
       },
       {
@@ -4680,7 +4680,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       },
       {
@@ -5098,7 +5098,7 @@
       },
       {
         "dose": null,
-        "name": "omin oca",
+        "name": "ominoca",
         "unit": null
       },
       {
@@ -5385,7 +5385,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": 80.0
       },
       {
@@ -5591,7 +5591,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co renitec",
+        "name": "corenitec",
         "unit": null
       },
       {
@@ -6150,7 +6150,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "doxazosina neo ratiopharm",
+        "name": "doxazosina neo",
         "unit": 4.0
       },
       {
@@ -6834,7 +6834,7 @@
       },
       {
         "dose": null,
-        "name": "ebastel forte l",
+        "name": "ebastel forte",
         "unit": 20.0
       }
     ],
@@ -7008,7 +7008,7 @@
       },
       {
         "dose": null,
-        "name": "novo mix",
+        "name": "novomix",
         "unit": 30.0
       }
     ],
@@ -7161,7 +7161,7 @@
       },
       {
         "dose": null,
-        "name": "novo mix",
+        "name": "novomix",
         "unit": null
       }
     ],
@@ -7413,7 +7413,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "anti coagulant",
+        "name": "anticoagulant",
         "unit": null
       },
       {
@@ -7748,12 +7748,12 @@
       },
       {
         "dose": null,
-        "name": "co diovan forte",
+        "name": "codiovan forte",
         "unit": null
       },
       {
         "dose": null,
-        "name": "algi mabo",
+        "name": "algimabo",
         "unit": null
       },
       {
@@ -7834,7 +7834,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co dvan forte",
+        "name": "codvan forte",
         "unit": 160.0
       },
       {
@@ -8029,7 +8029,7 @@
       },
       {
         "dose": null,
-        "name": "dastosin jarabe",
+        "name": "dastosin",
         "unit": null
       },
       {
@@ -8148,7 +8148,7 @@
       },
       {
         "dose": null,
-        "name": "fos avance",
+        "name": "fosavance",
         "unit": null
       },
       {
@@ -8358,7 +8358,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -8658,7 +8658,7 @@
       },
       {
         "dose": null,
-        "name": "plusvent accuhaler",
+        "name": "plusvent",
         "unit": null
       },
       {
@@ -9360,7 +9360,7 @@
       },
       {
         "dose": null,
-        "name": "g lufan",
+        "name": "glufan",
         "unit": null
       }
     ],
@@ -9455,7 +9455,7 @@
       },
       {
         "dose": null,
-        "name": "aero red",
+        "name": "aerored",
         "unit": null
       }
     ],
@@ -10233,7 +10233,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan forte",
+        "name": "codiovan forte",
         "unit": null
       },
       {
@@ -10319,7 +10319,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "vastat l",
+        "name": "vastat flas",
         "unit": 15.0
       },
       {
@@ -10434,7 +10434,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "anti coagulant",
+        "name": "anticoagulant",
         "unit": 1000.0
       },
       {
@@ -10563,7 +10563,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -10879,7 +10879,7 @@
       },
       {
         "dose": null,
-        "name": "a a s",
+        "name": "aas",
         "unit": 100.0
       },
       {
@@ -11097,7 +11097,7 @@
       },
       {
         "dose": null,
-        "name": "novo norm",
+        "name": "novonorm",
         "unit": 1.0
       },
       {
@@ -11416,7 +11416,7 @@
       },
       {
         "dose": null,
-        "name": "ventolin inhalador",
+        "name": "ventolin",
         "unit": null
       }
     ],
@@ -11512,7 +11512,7 @@
       },
       {
         "dose": null,
-        "name": "terbasmin turboinhale",
+        "name": "terbasmin",
         "unit": null
       }
     ],
@@ -13335,7 +13335,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "potasio masticable",
+        "name": "potasio",
         "unit": null
       },
       {
@@ -13579,7 +13579,7 @@
       },
       {
         "dose": null,
-        "name": "a a s",
+        "name": "aas",
         "unit": 100.0
       },
       {
@@ -13928,7 +13928,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "inaladuo accuhaler",
+        "name": "inaladuo",
         "unit": null
       },
       {
@@ -14208,7 +14208,7 @@
       },
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       },
       {
@@ -14352,7 +14352,7 @@
       },
       {
         "dose": null,
-        "name": "anti coagulant",
+        "name": "anticoagulant",
         "unit": null
       },
       {
@@ -14410,7 +14410,7 @@
       },
       {
         "dose": null,
-        "name": "beglan inhalador",
+        "name": "beglan",
         "unit": null
       }
     ],
@@ -14844,7 +14844,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co renitec",
+        "name": "corenitec",
         "unit": null
       },
       {
@@ -14957,7 +14957,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "doxium fuerte",
+        "name": "doxium forte",
         "unit": 500.0
       },
       {
@@ -15190,7 +15190,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "anti coagulant",
+        "name": "anticoagulant",
         "unit": 1000.0
       },
       {
@@ -16030,7 +16030,7 @@
       },
       {
         "dose": null,
-        "name": "co dvan",
+        "name": "codvan",
         "unit": 80.0
       },
       {
@@ -16114,7 +16114,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -16175,7 +16175,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "foli doce",
+        "name": "folidoce",
         "unit": null
       }
     ],
@@ -16719,7 +16719,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": 80.0
       }
     ],
@@ -17160,7 +17160,7 @@
       },
       {
         "dose": null,
-        "name": "algi mabo",
+        "name": "algimabo",
         "unit": null
       },
       {
@@ -17355,7 +17355,7 @@
       },
       {
         "dose": null,
-        "name": "fero gradumet",
+        "name": "ferogradumet",
         "unit": null
       },
       {
@@ -17370,7 +17370,7 @@
       },
       {
         "dose": null,
-        "name": "fastum gel",
+        "name": "fastum",
         "unit": null
       },
       {
@@ -18153,7 +18153,7 @@
       },
       {
         "dose": null,
-        "name": "fero gradumet",
+        "name": "ferogradumet",
         "unit": null
       },
       {
@@ -18331,7 +18331,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "rituximab ampollas",
+        "name": "rituximab",
         "unit": null
       },
       {
@@ -18692,7 +18692,7 @@
       },
       {
         "dose": null,
-        "name": "theo dur",
+        "name": "theodur",
         "unit": 200.0
       },
       {
@@ -18907,7 +18907,7 @@
       },
       {
         "dose": null,
-        "name": "calcium sandoz forte",
+        "name": "calciumsandoz forte",
         "unit": null
       }
     ],
@@ -19174,7 +19174,7 @@
       },
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       },
       {
@@ -19237,7 +19237,7 @@
       },
       {
         "dose": null,
-        "name": "neblit aerosol",
+        "name": "neblit",
         "unit": null
       },
       {
@@ -19548,7 +19548,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan forte",
+        "name": "codiovan forte",
         "unit": 160.0
       },
       {
@@ -19870,7 +19870,7 @@
       },
       {
         "dose": null,
-        "name": "condro san",
+        "name": "condrosan",
         "unit": 400.0
       },
       {
@@ -20336,7 +20336,7 @@
       },
       {
         "dose": null,
-        "name": "opiren l",
+        "name": "opiren flas",
         "unit": 15.0
       },
       {
@@ -20554,7 +20554,7 @@
       },
       {
         "dose": null,
-        "name": "somazina vial",
+        "name": "somazina",
         "unit": 1000.0
       },
       {
@@ -20945,7 +20945,7 @@
       },
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       },
       {
@@ -21168,7 +21168,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "nitro dur",
+        "name": "nitrodur",
         "unit": null
       }
     ],
@@ -22035,7 +22035,7 @@
       },
       {
         "dose": null,
-        "name": "condro san",
+        "name": "condrosan",
         "unit": 400.0
       },
       {
@@ -22078,7 +22078,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": 80.0
       }
     ],
@@ -22331,7 +22331,7 @@
       },
       {
         "dose": null,
-        "name": "boi k",
+        "name": "boik",
         "unit": null
       },
       {
@@ -22716,7 +22716,7 @@
       },
       {
         "dose": null,
-        "name": "neo carduran",
+        "name": "carduran neo",
         "unit": null
       },
       {
@@ -23113,7 +23113,7 @@
       },
       {
         "dose": null,
-        "name": "a a s",
+        "name": "aas",
         "unit": 100.0
       }
     ],
@@ -23312,7 +23312,7 @@
       },
       {
         "dose": null,
-        "name": "boi k",
+        "name": "boik",
         "unit": null
       },
       {
@@ -23793,7 +23793,7 @@
       },
       {
         "dose": null,
-        "name": "dfusor parches",
+        "name": "dfusor",
         "unit": null
       },
       {
@@ -23944,7 +23944,7 @@
       },
       {
         "dose": null,
-        "name": "veriscal d l",
+        "name": "veriscal d flas",
         "unit": null
       }
     ],
@@ -24130,7 +24130,7 @@
       },
       {
         "dose": null,
-        "name": "symbicort turbuhaler",
+        "name": "symbicort",
         "unit": null
       },
       {
@@ -24294,7 +24294,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -25431,7 +25431,7 @@
       },
       {
         "dose": null,
-        "name": "opiren l",
+        "name": "opiren flas",
         "unit": 15.0
       },
       {
@@ -26568,7 +26568,7 @@
       },
       {
         "dose": null,
-        "name": "a a s",
+        "name": "aas",
         "unit": null
       },
       {
@@ -26621,7 +26621,7 @@
       },
       {
         "dose": null,
-        "name": "co renitec",
+        "name": "corenitec",
         "unit": null
       },
       {
@@ -26759,7 +26759,7 @@
       },
       {
         "dose": null,
-        "name": "ventolin inhalador",
+        "name": "ventolin",
         "unit": null
       },
       {
@@ -27325,7 +27325,7 @@
       },
       {
         "dose": null,
-        "name": "aldactore a",
+        "name": "aldactorea",
         "unit": null
       },
       {
@@ -27358,7 +27358,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": 80.0
       },
       {
@@ -28004,7 +28004,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": 160.0
       },
       {
@@ -28329,7 +28329,7 @@
       },
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       }
     ],
@@ -29016,7 +29016,7 @@
       },
       {
         "dose": null,
-        "name": "rituximab capsulas",
+        "name": "rituximab",
         "unit": null
       },
       {
@@ -29036,7 +29036,7 @@
       },
       {
         "dose": null,
-        "name": "inaladuo accuhaler",
+        "name": "inaladuo",
         "unit": null
       },
       {
@@ -29213,7 +29213,7 @@
       },
       {
         "dose": null,
-        "name": "novo norm",
+        "name": "novonorm",
         "unit": null
       },
       {
@@ -29228,7 +29228,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -29410,7 +29410,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "anti coagulant",
+        "name": "anticoagulant",
         "unit": null
       },
       {
@@ -29810,7 +29810,7 @@
       },
       {
         "dose": null,
-        "name": "calcium sandoz",
+        "name": "calciumsandoz",
         "unit": null
       },
       {
@@ -29907,7 +29907,7 @@
       },
       {
         "dose": null,
-        "name": "liquifilm lagrimas",
+        "name": "liquifilm",
         "unit": null
       },
       {
@@ -30020,7 +30020,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "rexer l",
+        "name": "rexer flas",
         "unit": null
       }
     ],
@@ -30263,7 +30263,7 @@
       },
       {
         "dose": null,
-        "name": "vastat l",
+        "name": "vastat flas",
         "unit": 15.0
       },
       {
@@ -31497,7 +31497,7 @@
       },
       {
         "dose": null,
-        "name": "lidaltrin diu",
+        "name": "lidaltrindiu",
         "unit": null
       }
     ],
@@ -32151,7 +32151,7 @@
       },
       {
         "dose": null,
-        "name": "vastat l",
+        "name": "vastat flas",
         "unit": 30.0
       },
       {
@@ -32379,7 +32379,7 @@
       },
       {
         "dose": null,
-        "name": "maxidex gotas",
+        "name": "maxidex",
         "unit": null
       },
       {
@@ -32400,7 +32400,7 @@
       },
       {
         "dose": null,
-        "name": "timoftol gotas",
+        "name": "timoftol",
         "unit": null
       },
       {
@@ -33534,7 +33534,7 @@
       },
       {
         "dose": null,
-        "name": "fero gradumet",
+        "name": "ferogradumet",
         "unit": null
       },
       {
@@ -33544,7 +33544,7 @@
       },
       {
         "dose": null,
-        "name": "co aprovel",
+        "name": "coaprovel",
         "unit": null
       },
       {
@@ -33753,7 +33753,7 @@
       },
       {
         "dose": null,
-        "name": "ventolin inhalador",
+        "name": "ventolin",
         "unit": null
       },
       {
@@ -34297,7 +34297,7 @@
       },
       {
         "dose": null,
-        "name": "omo osa",
+        "name": "omoosa",
         "unit": null
       },
       {
@@ -34582,7 +34582,7 @@
       },
       {
         "dose": null,
-        "name": "cp glicerina",
+        "name": "cpglicerina",
         "unit": null
       }
     ],
@@ -34691,7 +34691,7 @@
       },
       {
         "dose": null,
-        "name": "vastat l",
+        "name": "vastat flas",
         "unit": 15.0
       },
       {
@@ -34792,7 +34792,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "vastat l",
+        "name": "vastat flas",
         "unit": 30.0
       },
       {
@@ -35090,7 +35090,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "a a s",
+        "name": "aas",
         "unit": 100.0
       },
       {
@@ -35225,7 +35225,7 @@
       },
       {
         "dose": null,
-        "name": "oponal sobres",
+        "name": "oponal",
         "unit": null
       },
       {
@@ -35675,7 +35675,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "pro vico",
+        "name": "provico",
         "unit": null
       },
       {
@@ -35878,7 +35878,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -36509,7 +36509,7 @@
       },
       {
         "dose": null,
-        "name": "stop cold",
+        "name": "stopcold",
         "unit": null
       },
       {
@@ -36661,7 +36661,7 @@
       },
       {
         "dose": null,
-        "name": "ebastel forte flax",
+        "name": "ebastel forte",
         "unit": null
       }
     ],
@@ -36768,7 +36768,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -36879,7 +36879,7 @@
       },
       {
         "dose": null,
-        "name": "co vals",
+        "name": "covals",
         "unit": null
       },
       {
@@ -37010,7 +37010,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "spiriva polvo para inhalacion",
+        "name": "spiriva",
         "unit": null
       },
       {
@@ -37058,7 +37058,7 @@
       },
       {
         "dose": null,
-        "name": "co renitec",
+        "name": "corenitec",
         "unit": null
       }
     ],
@@ -37361,7 +37361,7 @@
       },
       {
         "dose": null,
-        "name": "b o i k",
+        "name": "boik",
         "unit": null
       },
       {
@@ -37631,7 +37631,7 @@
       },
       {
         "dose": null,
-        "name": "co vals forte t",
+        "name": "covals forte",
         "unit": null
       }
     ],
@@ -37842,7 +37842,7 @@
       },
       {
         "dose": null,
-        "name": "co dran forte",
+        "name": "codran forte",
         "unit": null
       },
       {
@@ -37990,7 +37990,7 @@
       },
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": 80.0
       },
       {
@@ -38058,7 +38058,7 @@
       },
       {
         "dose": null,
-        "name": "co aprodel",
+        "name": "coaprodel",
         "unit": null
       },
       {
@@ -38400,7 +38400,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "uni masdil",
+        "name": "unimasdil",
         "unit": 200.0
       },
       {
@@ -38617,7 +38617,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "ibercal d",
+        "name": "ibercald",
         "unit": null
       }
     ],
@@ -38655,7 +38655,7 @@
       },
       {
         "dose": null,
-        "name": "cod paracetamol",
+        "name": "paracetamol codeina",
         "unit": null
       },
       {
@@ -38675,7 +38675,7 @@
       },
       {
         "dose": null,
-        "name": "opiren l",
+        "name": "opiren flas",
         "unit": 15.0
       },
       {
@@ -38920,7 +38920,7 @@
       },
       {
         "dose": null,
-        "name": "boi k",
+        "name": "boik",
         "unit": null
       },
       {
@@ -39457,7 +39457,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "co diovan",
+        "name": "codiovan",
         "unit": null
       },
       {
@@ -40658,7 +40658,7 @@
       },
       {
         "dose": null,
-        "name": "co vals forte",
+        "name": "covals forte",
         "unit": null
       },
       {
@@ -41014,7 +41014,7 @@
       },
       {
         "dose": null,
-        "name": "inocarplus",
+        "name": "inocar plus",
         "unit": null
       },
       {
@@ -42184,7 +42184,7 @@
     "drugs": [
       {
         "dose": null,
-        "name": "g renitec",
+        "name": "grenitec",
         "unit": null
       },
       {
@@ -42357,7 +42357,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "doxium fuerte",
+        "name": "doxium forte",
         "unit": 500.0
       },
       {
@@ -42406,7 +42406,7 @@
           "time": 24,
           "unit": 2.0
         },
-        "name": "novo mix",
+        "name": "novomix",
         "unit": 30.0
       },
       {
@@ -42419,7 +42419,7 @@
           "time": 24,
           "unit": 1.0
         },
-        "name": "ibercal d",
+        "name": "ibercald",
         "unit": null
       },
       {

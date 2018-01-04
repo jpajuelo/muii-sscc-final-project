@@ -39,6 +39,25 @@ PATIENT_K = [
   'kidney_failure'
 ]
 
+WORDS_TO_REMOVE = [
+  'accuhaler',
+  'aerosol',
+  'ampollas',
+  'capsulas',
+  'gel',
+  'gotas',
+  'inhalador',
+  'jarabe',
+  'lagrimas',
+  'masticable',
+  'parches',
+  'polvo para inhalacion',
+  'sobres',
+  'turbuhaler',
+  'turboinhale',
+  'vial'
+]
+
 # =======================================================================================
 # HELPERS
 # =======================================================================================
@@ -135,7 +154,8 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r' 0 ?(?P<a>[0-9])', ' 0.%s', ['a'])
     drug = replace(drug, r'^0(?P<a>[a-z])', 'o%s', ['a'])
     drug = replace(drug, r'(?P<a>[a-z]+)(?P<b>[0-9])', '%s %s', ['a', 'b'])
-    drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z0-9])', '%s %s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[a-z])', '%s%s', ['a', 'b'])
+    drug = replace(drug, r'(?P<a>[a-z]) ?(-|\.) ?(?P<b>[0-9])', '%s %s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9])[ a-z]*al (?P<b>(m|d|s)).*', '%su/%s', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]) (?P<b>%s)u' % (NUM_RE,), '%s-- %su', ['a', 'b'])
     drug = replace(drug, r'(?P<a>[0-9]+) (?P<b>[0-9]+)--', '%s.%s--', ['a', 'b'])
@@ -173,6 +193,15 @@ def clean_patient_drugs(patient_drugs):
     drug = replace(drug, r'u/(?P<a>[a-z])$', 'u/1%s', ['a'])
     drug = replace(drug, r'^(?P<a>[a-z]+( [a-z]+)*) y (?P<b>[a-z]+( [a-z]+)*)', '%s,%s', ['a', 'b'])
     drug = replace(drug, r' 0--', '')
+    drug = replace(drug, r' ?f[a-z]+rte( [a-z]+)?', ' forte')
+    drug = replace(drug, r' reta[a-z]+', ' retard')
+    drug = replace(drug, r'^neo (?P<a>[a-z]+)', '%s neo', ['a'])
+    drug = replace(drug, r'^cod (?P<a>[a-z]+)', '%s codeina', ['a'])
+    drug = replace(drug, r' neo [a-z]+', ' neo')
+    drug = replace(drug, r' l\b', ' flas')
+    drug = replace(drug, r'(?P<a>[a-z]+) ?plus', '%s plus', ['a'])
+    drug = replace(drug, r'^(?P<a>[a-z]{,4}) (?P<b>[a-z]+)', '%s%s', ['a', 'b'])
+    drug = replace(drug, r' (%s)\b' % '|'.join(WORDS_TO_REMOVE), '')
 
     match = DRUG_PATTERN.search(drug)
 
