@@ -106,6 +106,7 @@ def parse_float(val):
 def clean_patient(patient_v):
   patient = dict((k, None if v == '' else parse_float(v)) for k, v in zip(PATIENT_K, patient_v))
 
+  """
   bmp_k = ['blood_glucose', 'blood_urea_nitrogen', 'triglyceride']
   bmp_v = [patient.pop(k) for k in bmp_k]
 
@@ -121,12 +122,13 @@ def clean_patient(patient_v):
     bc_type.update({
       'white_blood_cell_type': None if None in wbc_v else dict(zip(wbc_k, wbc_v))
     })
+  """
 
   patient.update({
-    'basic_metalobic_panel': None if None in bmp_v else dict(zip(bmp_k, bmp_v)),
+    #'basic_metalobic_panel': None if None in bmp_v else dict(zip(bmp_k, bmp_v)),
     'blood_mass_index': parse_float(703 * (patient.pop('weight') / patient.pop('height') ** 2)),
-    'blood_cell_type': bc_type,
-    'kidney_failure': False if patient.get('kidney_failure') < 1 else True,
+    #'blood_cell_type': bc_type,
+    'kidney_failure': int(patient.get('kidney_failure')),
   })
 
   return patient
@@ -330,6 +332,42 @@ for p_id, p_drugs in patient_drugs.items():
     })
 
 export_json(patient, 'patient')
+
+with open('outfiles/patient.csv', 'w') as csvfile:
+  fieldnames = [
+    'patient_id',
+    'basophil',
+    'blood_glucose',
+    'blood_urea_nitrogen',
+    'eosinophil',
+    'kidney_failure',
+    'mean_platelet_volume',
+    'monocyte',
+    'neutrophil',
+    'platelet',
+    'triglyceride',
+    'tflr',
+    'white_blood_cell',
+  ]
+
+  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  writer.writeheader()
+  for p_id, p_info in patient.items():
+    writer.writerow({
+      'patient_id': p_id,
+      'basophil': p_info.get('basophil'),
+      'blood_glucose': p_info.get('blood_glucose'),
+      'blood_urea_nitrogen': p_info.get('blood_urea_nitrogen'),
+      'eosinophil': p_info.get('eosinophil'),
+      'kidney_failure': p_info.get('kidney_failure'),
+      'mean_platelet_volume': p_info.get('mean_platelet_volume'),
+      'monocyte': p_info.get('monocyte'),
+      'neutrophil': p_info.get('neutrophil'),
+      'platelet': p_info.get('platelet'),
+      'triglyceride': p_info.get('triglyceride'),
+      'tflr': p_info.get('tflr'),
+      'white_blood_cell': p_info.get('white_blood_cell'),
+    })
 
 drug_cleaned = [d.get('name') for p_i, p_d in patient_drugs.items() for d in p_d]
 drug_cleaned = [(k, len(list(g))) for k, g in groupby(sorted(drug_cleaned))]
