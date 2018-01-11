@@ -369,6 +369,20 @@ with open('outfiles/patient.csv', 'w') as csvfile:
       'white_blood_cell': p_info.get('white_blood_cell'),
     })
 
+with open('outfiles/patient_drugs.csv', 'w') as csvfile:
+  fieldnames = ['patient_id'] + ['drug%s' % (k + 1) for k in range(10)]
+
+  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  writer.writeheader()
+  for p_id, p_drugs in patient_drugs.items():
+    row = {
+      'patient_id': p_id,
+    }
+
+    row.update(dict(('drug%s' % (k + 1), d.get('name')) for k, d in enumerate(p_drugs)))
+
+    writer.writerow(row)
+
 drug_cleaned = [d.get('name') for p_i, p_d in patient_drugs.items() for d in p_d]
 drug_cleaned = [(k, len(list(g))) for k, g in groupby(sorted(drug_cleaned))]
 
