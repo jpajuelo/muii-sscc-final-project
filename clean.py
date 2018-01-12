@@ -388,6 +388,22 @@ drug_cleaned = [(k, len(list(g))) for k, g in groupby(sorted(drug_cleaned))]
 
 drug_removed = [(k, v) for k, v in drug_cleaned if v == 1]
 
+with open('outfiles/patient_drugs_binary.csv', 'w') as csvfile:
+  drugs_tmp = sorted(set([k for k, v in drug_cleaned if v != 1]))
+  fieldnames = ['patient_id'] + drugs_tmp
+
+  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  writer.writeheader()
+  for p_id, p_drugs in patient_drugs.items():
+    row = {
+      'patient_id': p_id,
+    }
+    p_d_names = [d.get('name') for d in p_drugs]
+
+    row.update(dict((d_name, 1 if d_name in p_d_names else 0) for d_name in drugs_tmp))
+
+    writer.writerow(row)
+
 with open('drug_cleaned.txt', 'w') as outfile:
   print >> outfile, '\n'.join(sorted(set(['%s %s' % (k,v) for k, v in drug_cleaned])))
 
